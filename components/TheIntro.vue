@@ -10,7 +10,7 @@
     </header>
     <div class="row">
       <div class="intro-arrow col-sm-1 col-sm-offset-11">
-        <span class="fa-stack fa-1x">
+        <span class="fa-stack fa-2x">
           <font-awesome-icon icon="fa-solid fa-circle" class="fa-stack-2x" />
           <font-awesome-icon icon="fa-solid fa-arrow-down" class="fa-stack-1x fa-inverse" />
         </span>

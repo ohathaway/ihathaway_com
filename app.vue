@@ -1,6 +1,7 @@
 <template>
   <TheIntro />
   <div id="learn-more">
+    <TheAttorney />
     <ContactInfo />
   </div>
 </template>

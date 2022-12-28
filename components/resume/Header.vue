@@ -23,7 +23,7 @@
         </span>
         &nbsp;&nbsp;&nbsp;
 
-        <a href="./assets/images/resume.pdf">PDF of this resume</a>
+        <a href="./assets/images/resume.pdf">PDF of my resume</a>
       </p>
     </div>
     <div class="col-md-9 text-center mb-0 py-5 bg-gray text-blue-900">

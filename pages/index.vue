@@ -13,11 +13,14 @@
 <style lang="scss">
 body {
   font-family: Optima;
+  font-size: 150%;
   a {
     color: $gainsboro;
     font-family: Optima;
+    text-decoration: none;
     &:hover {
       color: $light-steel-blue;
+      text-decoration: underline;
     }
   }
   h1, h2, h3, h4, h5 {
@@ -27,11 +30,14 @@ body {
   h2 {
     font-size: 140%;
   }
+  .w-60 {
+    width: 60%;
+  }
   .row {
     margin: 0;
   }
   .role-odd {
-    // &.role-info { padding: 5rem 10rem; }
+    .role-description { padding-right: 2rem; }
   }
   .role-even {
     &.role-info { padding: 5rem 10rem; }

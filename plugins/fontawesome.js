@@ -13,8 +13,12 @@ import {
   faPeopleRoof,
   faPlay,
   faScaleBalanced,
-  faTriangleExclamation
+  faTriangleExclamation,
+  faUserTie
 } from '@fortawesome/free-solid-svg-icons'
+import {
+  faFile as farFile
+} from '@fortawesome/free-regular-svg-icons'
 
 // This is important, we are going to let Nuxt.js worry about the CSS
 config.autoAddCss = false
@@ -33,7 +37,9 @@ library.add(faArrowDown,
             faPeopleRoof,
             faPlay,
             faScaleBalanced,
-            faTriangleExclamation
+            faTriangleExclamation,
+            faUserTie,
+            farFile
           )
 
 // Register the component globally

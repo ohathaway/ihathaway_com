@@ -9,6 +9,12 @@ export default defineNuxtConfig({
       '@fortawesome/free-brands-svg-icons'
     ]
   },
+  content: {
+    // https://content.nuxtjs.org/api/configuration 
+  },
+  modules: [
+    '@nuxt/content'
+  ],
   vite: {
     css: {
       preprocessorOptions: {

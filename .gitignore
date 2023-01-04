@@ -28,7 +28,6 @@ pnpm-debug.log*
 *.ntvs*
 *.njsproj
 .nuxt
-.output
 *.sln
 *.sw?
 deploy/update_cloud_formation.js

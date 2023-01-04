@@ -55,7 +55,7 @@
         </h1>
       </div>
       <div class="role-even role-description col-7 order-lg-3 offset-1">
-        <p class="fs-3">
+        <p>
           Defined by <a href="https://en.wiktionary.org/wiki/technologist">
           Wiktionary</a> as "A person who uses science or technology to solve
           practical problems."

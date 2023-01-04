@@ -15,9 +15,6 @@ jobs:
         node: [16]
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@3
-
       - name: Setup node env
         uses: actions/setup-node@latest
         with:
@@ -33,4 +30,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@latest
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./.output/public

@@ -3,6 +3,7 @@
 node_modules
 yarn.lock
 package.log
+package-lock.json
 
 /tests/e2e/reports/
 selenium-debug.log

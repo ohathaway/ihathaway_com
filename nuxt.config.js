@@ -10,11 +10,12 @@ export default defineNuxtConfig({
     ]
   },
   content: {
-    // https://content.nuxtjs.org/api/configuration 
+    // https://content.nuxtjs.org/api/configuration
   },
   modules: [
     '@nuxt/content'
   ],
+  target: 'static',
   vite: {
     css: {
       preprocessorOptions: {

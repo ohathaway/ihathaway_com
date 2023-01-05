@@ -19,9 +19,20 @@
         </h1>
       </div>
       <div id="info" class="col-6 offset-1 order-lg-2">
-        <p class="fs-3">
-          Lorem ipsum dolor et ...
+        <p>
+          The problem with problems is that they're just so problematic. Sure, I
+          know that seems more pedantic than necessary. But consider that the
+          vast majority of the problems people and organizations face in life
+          are: 1) created by themselves; 2) simple to solve after eliminating
+          the relevant cognitive biases; or 3) not really a problem at all.
         </p>
+        <ul>
+          <li>Taleb</li>
+          <li>Kahneman</li>
+          <li>Weber</li>
+          <li>Cowen</li>
+          <li>Pinker</li>
+        </ul>
       </div>
     </div>
   </section>

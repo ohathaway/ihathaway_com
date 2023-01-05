@@ -71,13 +71,16 @@
         <p>
           Rather than adopting the
           <a href="https://en.wikipedia.org/wiki/Luddite"
-             alt="Early Eighteenth Century Secret Society - the Luddites"
+             name="Early Eighteenth Century Secret Society - the Luddites"
           >Luddites'</a> approach to technology, I approach problem solving
           using the best tool I have for the job. I am a walking stereotype when
           it comes to guys and gadgets, but that fascination affords me the
           ability to bring a diverse array of tools to many different types of
-          problems. Tools are cool. Humans are cooler. Put the two together, and
-          we accomplish incredible things.
+          problems.
+        </p>
+        <p>
+          Tools are cool. Humans are cooler. Put the two together, and we
+          accomplish incredible things.
         </p>
       </div>
     </div>

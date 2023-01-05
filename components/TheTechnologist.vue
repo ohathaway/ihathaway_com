@@ -57,8 +57,11 @@
       <div class="role-even role-description col-7 order-lg-3 offset-1">
         <p>
           Defined by <a href="https://en.wiktionary.org/wiki/technologist">
-          Wiktionary</a> as "A person who uses science or technology to solve
-          practical problems."
+          Wiktionary</a> as
+          <blockquote cite="https://en.wiktionary.org/wiki/technologist">
+            A person who uses science or technology to solve practical problems.
+          </blockquote>
+
         </p>
         <p>
           Early humans used stone tools, such as arrow heads, spear tips,

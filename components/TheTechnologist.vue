@@ -82,6 +82,37 @@
           Tools are cool. Humans are cooler. Put the two together, and we
           accomplish incredible things.
         </p>
+        <p>
+          When it comes to tools, my biggest toolset contains IT-related stuff.
+          A few of the things I can use with some competency:
+          <ul>
+            <li>Windows management frameworks</li>
+            <li>Windows management frameworks</li>
+            <li>Linux OS</li>
+            <li>enterprise networking</li>
+            <li>enterprise storage architectures</li>
+            <li>cybersecurity</li>
+            <li>identity and access management</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Vue.JS</li>
+            <li>Ruby/Rails</li>
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>NoSQL</li>
+            <li>REST APIs</li>
+            <li>shell scripting</li>
+            <li>HL7</li>
+            <li>interface engines</li>
+            <li>DevOps</li>
+            <li>serverless computing</li>
+            <li>PCI-DSS</li>
+            <li>NIST 800-53</li>
+            <li>CISSP (lapsed)</li>
+            <li>HITRUST CSF</li>
+          </ul>
+        </p>
       </div>
     </div>
   </section>

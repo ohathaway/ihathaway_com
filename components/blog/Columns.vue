@@ -10,7 +10,13 @@
 </template>
 
 <style lang="scss">
-#blog-cols h2 { font-size: 200%; }
-#blog-cols h3 { font-size: 120%; }
-#blog-cols h4 { font-size: 100%; }
+#blog-cols h2 {
+  font-size: 200%;
+}
+#blog-cols h3 {
+  font-size: 120%;
+}
+#blog-cols h4 {
+  font-size: 100%;
+}
 </style>

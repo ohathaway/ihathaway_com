@@ -1,10 +1,14 @@
 <template>
-  <section id="bellybutton" class="row p-4 pt-6 pb-5 p-lg-7 justify-content-center text-light">
+  <section
+    id="bellybutton"
+    class="row p-4 pt-6 pb-5 p-lg-7 justify-content-center text-light"
+  >
     <div class="col-lg-8">
       <div class="text-center mb-5">
-        <h4 class="text-capitalize text-light">Psychologists will tell you that
-          the best way to be happy is <br />not to pursue happiness directly. It
-          should be a side effect of <br />a life lived with purpose.
+        <h4 class="text-capitalize text-light">
+          Psychologists will tell you that the best way to be happy is <br />not
+          to pursue happiness directly. It should be a side effect of <br />a
+          life lived with purpose.
         </h4>
 
         <i>David Roberts</i>
@@ -16,8 +20,8 @@
         another. Then another. It didn't take long for me to flood myself with
         seemingly important things to do. I have yet to be able to pare that
         back to only one purpose, but I have narrowed things down to four. I
-        think they work well together. Below, I share my [current] perspective on who I
-        am and why these purposes sum that up.
+        think they work well together. Below, I share my [current] perspective
+        on who I am and why these purposes sum that up.
       </p>
     </div>
   </section>
@@ -26,6 +30,6 @@
 <style lang="scss">
 #bellybutton {
   background: #0f0f0f;
-  margin: 0
+  margin: 0;
 }
 </style>

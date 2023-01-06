@@ -6,7 +6,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
+    "lintfix": "npm run lint:js --fix"
   },
   "devDependencies": {
     "@nuxt/content": "^2.3.0",
@@ -20,6 +22,13 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^3.0.2",
-    "bootstrap": "^5.2.3"
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "bootstrap": "^5.2.3",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
   }
 }

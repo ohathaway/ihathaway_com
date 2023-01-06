@@ -14,7 +14,9 @@
   background: $gainsboro;
   a {
     color: $dark;
-    &:hover { color: $dark-cornflower-blue; }
+    &:hover {
+      color: $dark-cornflower-blue;
+    }
   }
 }
 </style>

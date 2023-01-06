@@ -2,7 +2,9 @@
   <section class="row mt-5 pe-5">
     <h2>Professional Experience</h2>
     <div class="row">
-      <div class="col-md-7 fst-italic">general counsel, director finance, director IT</div>
+      <div class="col-md-7 fst-italic">
+        general counsel, director finance, director IT
+      </div>
       <div class="col-md-5 justify-content-end text-end">
         <h3 class="fw-light">April 2018 &mdash; Present</h3>
       </div>
@@ -50,9 +52,7 @@
         implemented IT service management process that was ultimately adopted as
         customer service process for entire company including external customers
       </li>
-      <li>
-        reduced employee onboarding from 12 hours of IT labor to 1 hour
-      </li>
+      <li>reduced employee onboarding from 12 hours of IT labor to 1 hour</li>
       <li>
         developed 100% cloud data analytics infrastructure using a hybrid of
         off-the-shelf software and custom data lakes
@@ -64,11 +64,9 @@
         <h3 class="fw-light">October 2011 &mdash; Present</h3>
       </div>
       <p class="ps-6">
-        bankruptcy &bull;
-        estate planning &bull;
-        IT acquisitions &bull;
-        healthcare &bull;
-        general business (contracts, financial mgt, tax planning, employment)
+        bankruptcy &bull; estate planning &bull; IT acquisitions &bull;
+        healthcare &bull; general business (contracts, financial mgt, tax
+        planning, employment)
       </p>
     </div>
     <div class="row mt-5">
@@ -104,7 +102,7 @@
       </p>
     </div>
     <div class="ps-4">
-      <h3 class="experience  fst-italic">bachelor of arts, magna cum laude</h3>
+      <h3 class="experience fst-italic">bachelor of arts, magna cum laude</h3>
       <div class="row ps-0">
         <div class="col-md-7">
           <h3 class="experience">Regis University</h3>
@@ -113,9 +111,7 @@
           <h3 class="fw-light">April 2005</h3>
         </div>
       </div>
-      <p class="ps-7">
-        organizational development with minor in communication
-      </p>
+      <p class="ps-7">organizational development with minor in communication</p>
     </div>
   </section>
   <section class="mt-5 pt-5 pe-5 border-top border-dark">
@@ -128,7 +124,8 @@
 </template>
 
 <style lang="scss">
-h3.experience, h4.experience {
+h3.experience,
+h4.experience {
   font-family: Optima !important;
   color: $dark;
 }

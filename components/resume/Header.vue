@@ -1,12 +1,11 @@
 <template>
-  <div class="row w-100" >
+  <div class="row w-100">
     <div class="col-3 bg-gray h-25 p-4 d-none d-md-block"></div>
     <div class="col-9"></div>
   </div>
-  <header id="topNav"
-          :class="topNavClasses"
-  >
-    <div class="col-md-3 bg-gray ps-5"><p>
+  <header id="topNav" :class="topNavClasses">
+    <div class="col-md-3 bg-gray ps-5">
+      <p>
         <font-awesome-icon icon="fa-solid fa-envelope" />
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="mailto:owen@ohlawcolorado.com">owen@ohlawcolorado.com</a>
@@ -19,7 +18,10 @@
       <p>
         <span class="fa-layers fa-fw">
           <font-awesome-icon icon="fa-regular fa-file" />
-          <font-awesome-icon icon="fa-solid fa-user-tie" transform="shrink-10 down-1 left-0.3"/>
+          <font-awesome-icon
+            icon="fa-solid fa-user-tie"
+            transform="shrink-10 down-1 left-0.3"
+          />
         </span>
         &nbsp;&nbsp;&nbsp;
 
@@ -34,26 +36,30 @@
 
 <script setup>
 var topNavClasses = [
-  'row',
-  'justify-content-end',
-  'm-0',
-  'w-100',
-  'position-sticky',
-  'top-0'
-]
+  "row",
+  "justify-content-end",
+  "m-0",
+  "w-100",
+  "position-sticky",
+  "top-0",
+];
 
+/* eslint-disable @typescript-eslint/no-unused-vars */
 const setBarSize = () => {
   if (document.body.scrollTop > 48 || document.documentElement.scrollTop > 48) {
-    console.debug('click')
-    document.getElementById('topNav').style.background = "black"
+    console.debug("click");
+    document.getElementById("topNav").style.background = "black";
   } else {
-    document.getElementById('topNav').style.background = "green"
+    document.getElementById("topNav").style.background = "green";
   }
-}
+};
+/* eslint-enable @typescript-eslint/no-unused-vars */
 
 // window.onscroll = () => setBarSize()
 </script>
 
 <style lang="scss">
-.text-blue-900 { color: $blue-900; }
+.text-blue-900 {
+  color: $blue-900;
+}
 </style>

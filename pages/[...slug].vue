@@ -1,13 +1,12 @@
 <template>
   <div id="blog">
-    <div class="row w-100" >
+    <div class="row w-100">
       <div class="col-3 bg-gray h-25 p-4 d-none d-md-block"></div>
       <div class="col-9"></div>
     </div>
-    <header id="topNav"
-            :class="topNavClasses"
-    >
-      <div class="col-md-3 bg-gray ps-5"><p>
+    <header id="topNav" :class="topNavClasses">
+      <div class="col-md-3 bg-gray ps-5">
+        <p>
           <font-awesome-icon icon="fa-solid fa-envelope" />
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a href="mailto:owen@ohlawcolorado.com">owen@ohlawcolorado.com</a>
@@ -37,13 +36,13 @@
 
 <script setup>
 var topNavClasses = [
-  'row',
-  'justify-content-end',
-  'm-0',
-  'w-100',
-  'position-sticky',
-  'top-0'
-]
+  "row",
+  "justify-content-end",
+  "m-0",
+  "w-100",
+  "position-sticky",
+  "top-0",
+];
 </script>
 
 <style lang="scss">
@@ -55,7 +54,9 @@ var topNavClasses = [
   background: $gainsboro;
   a {
     color: $dark;
-    &:hover { color: $dark-cornflower-blue; }
+    &:hover {
+      color: $dark-cornflower-blue;
+    }
   }
 }
 </style>

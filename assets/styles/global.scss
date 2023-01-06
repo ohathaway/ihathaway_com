@@ -1,18 +1,32 @@
 // global.scss
-@import 'bootstrap/scss/_functions';
-@import 'bootstrap/scss/_variables';
-@import 'bootstrap/scss/_mixins';
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_variables";
+@import "bootstrap/scss/_mixins";
 
 $more-spacers: (
-  6: ($spacer * 4), // 4rem
-  7: ($spacer * 5), // 5rem
-  8: ($spacer * 7), // 7rem
-  9: ($spacer * 10) // 10rem
+  6: (
+    $spacer * 4,
+  ),
+  // 4rem
+  7:
+    (
+      $spacer * 5,
+    ),
+  // 5rem
+  8:
+    (
+      $spacer * 7,
+    ),
+  // 7rem
+  9:
+    (
+      $spacer * 10,
+    )
+    // 10rem,,,,,,,,
 );
 
 $spacers: map-merge($spacers, $more-spacers);
 
-
 @import "bootstrap/scss/bootstrap";
-@import '@fortawesome/fontawesome-svg-core/styles.css';
+@import "@fortawesome/fontawesome-svg-core/styles.css";
 @import "colors", "fonts";

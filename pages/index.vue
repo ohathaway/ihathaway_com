@@ -23,7 +23,11 @@ body {
       text-decoration: underline;
     }
   }
-  h1, h2, h3, h4, h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     font-family: TrajanPro;
     color: $primary;
   }
@@ -37,12 +41,17 @@ body {
     margin: 0;
   }
   .role-odd {
-    .role-description { padding-right: 2rem; }
+    .role-description {
+      padding-right: 2rem;
+    }
   }
   .role-even {
-    &.role-info { padding: 5rem 10rem; }
-    &.role-icon { text-align: right; }
-
+    &.role-info {
+      padding: 5rem 10rem;
+    }
+    &.role-icon {
+      text-align: right;
+    }
   }
 }
 </style>

@@ -10,7 +10,13 @@
 </template>
 
 <style lang="scss">
-#resume-cols h2 { font-size: 200%; }
-#resume-cols h3 { font-size: 120%; }
-#resume-cols h4 { font-size: 100%; }
+#resume-cols h2 {
+  font-size: 200%;
+}
+#resume-cols h3 {
+  font-size: 120%;
+}
+#resume-cols h4 {
+  font-size: 100%;
+}
 </style>

@@ -17,10 +17,12 @@
       <p>
         <span class="fa-layers fa-fw">
           <font-awesome-icon icon="fa-regular fa-file" />
-          <font-awesome-icon icon="fa-solid fa-user-tie" transform="shrink-10 down-1 left-0.3"/>
+          <font-awesome-icon
+            icon="fa-solid fa-user-tie"
+            transform="shrink-10 down-1 left-0.3"
+          />
         </span>
-        &nbsp;&nbsp;&nbsp;
-        my resume
+        &nbsp;&nbsp;&nbsp; my resume
         <a href="./assets/images/resume.pdf">[PDF]</a> &bull;
         <NuxtLink to="/resume">[HTML]</NuxtLink>
       </p>
@@ -44,7 +46,7 @@
     // padding-left: 3rem;
     font-size: 200%;
     @media (max-width: 992px) {
-        font-size: 150%;
+      font-size: 150%;
     }
   }
 }

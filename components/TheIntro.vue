@@ -16,8 +16,16 @@
       <div class="intro-arrow col-sm-1 col-sm-offset-11">
         <a href="#bellybutton">
           <span class="fa-stack fa-2x">
-            <font-awesome-icon icon="fa-solid fa-circle" class="fa-stack" transform="shrink-5" />
-            <font-awesome-icon icon="fa-solid fa-arrow-down" class="fa-stack-1x fa-inverse" transform="shrink-4"/>
+            <font-awesome-icon
+              icon="fa-solid fa-circle"
+              class="fa-stack"
+              transform="shrink-5"
+            />
+            <font-awesome-icon
+              icon="fa-solid fa-arrow-down"
+              class="fa-stack-1x fa-inverse"
+              transform="shrink-4"
+            />
           </span>
         </a>
       </div>
@@ -49,7 +57,9 @@
     text-align: right;
     a {
       color: $dark;
-      &:hover { color: $light-slate-gray; }
+      &:hover {
+        color: $light-slate-gray;
+      }
     }
   }
 }

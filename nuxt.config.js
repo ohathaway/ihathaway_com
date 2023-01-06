@@ -2,27 +2,25 @@
 export default defineNuxtConfig({
   build: {
     transpile: [
-      '@fortawesome/vue-fontawesome',
-      '@fortawesome/fontawesome-svg-core',
-      '@fortawesome/free-solid-svg-icons',
-      '@fortawesome/free-regular-svg-icons',
-      '@fortawesome/free-brands-svg-icons'
-    ]
+      "@fortawesome/vue-fontawesome",
+      "@fortawesome/fontawesome-svg-core",
+      "@fortawesome/free-solid-svg-icons",
+      "@fortawesome/free-regular-svg-icons",
+      "@fortawesome/free-brands-svg-icons",
+    ],
   },
   content: {
     // https://content.nuxtjs.org/api/configuration
   },
-  modules: [
-    '@nuxt/content'
-  ],
-  target: 'static',
+  modules: ["@nuxt/content"],
+  target: "static",
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "@/assets/styles/global.scss";'
-        }
-      }
-    }
-  }
-})
+          additionalData: '@import "@/assets/styles/global.scss";',
+        },
+      },
+    },
+  },
+});

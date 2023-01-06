@@ -21,18 +21,41 @@
       <div id="info" class="col-6 offset-1 order-lg-2">
         <p>
           The problem with problems is that they're just so problematic. Sure, I
-          know that seems more pedantic than necessary. But consider that the
-          vast majority of the problems people and organizations face in life
-          are: 1) created by themselves; 2) simple to solve after eliminating
-          the relevant cognitive biases; or 3) not really a problem at all.
+          know that statement seems more pedantic than necessary. But consider
+          that the vast majority of the problems people and organizations face
+          in life are: 1) created by themselves; 2) simple to solve after
+          eliminating the relevant cognitive biases; or 3) not really a problem
+          at all.
         </p>
-        <ul>
-          <li>Taleb</li>
-          <li>Kahneman</li>
-          <li>Weber</li>
-          <li>Cowen</li>
-          <li>Pinker</li>
-        </ul>
+        <p>
+          I find that effective problem-solving startes with
+          <a href="https://www.verywellmind.com/what-is-active-listening-3024343"
+             title="Active Listening">active listening</a>. More recently trendy
+          folks have talked about this concept as
+          <a href="https://mindfulnessexercises.com/what-is-mindful-listening/"
+             title="Mindful Listening">mindful listening</a>. Whatever you want
+          to call it, I aspire to the principles espoused under both labels.
+        <p>
+          My process then applies what I've learned about thinking from reading
+          folks like
+          <a href="https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb"
+             title="Nassim Taleb">Nassim Taleb</a>,
+          <a href="https://en.wikipedia.org/wiki/Daniel_Kahneman"
+             title="Daniel Kahneman">Daniel Kahneman</a>,
+          <a href="https://en.wikipedia.org/wiki/Max_Weber"
+             title="Max Weber">Max Weber</a> (although not in German),
+          <a href="https://en.wikipedia.org/wiki/Tyler_Cowen"
+             title="Tyler Cowen">Tyler Cowen</a> (unfortunately, I think he's
+             too eclectic to win the economics Nobel Prize he deserves), and
+          <a href="https://en.wikipedia.org/wiki/Steven_Pinker"
+             title="Steven Pinker">Steven Pinker</a>.
+        </p>
+        <p>
+          After doing some thinking, I reach into my toolbox to see what I have
+          that can help the situation. While my techie tools are the easiest to
+          tick off on a list, I also have lawyer tools, communicator tools, and
+          basic human compassion tools.
+        </p>
       </div>
     </div>
   </section>

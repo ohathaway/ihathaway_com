@@ -23,7 +23,7 @@
           />
         </span>
         &nbsp;&nbsp;&nbsp; my resume
-        <a href="./assets/images/resume.pdf" target="_blank">[PDF]</a> &bull;
+        <a href="./resume.pdf" target="_blank">[PDF]</a> &bull;
         <NuxtLink to="/resume">[HTML]</NuxtLink>
       </p>
     </div>

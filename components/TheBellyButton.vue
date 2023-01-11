@@ -23,6 +23,13 @@
         think they work well together. Below, I share my [current] perspective
         on who I am and why these purposes sum that up.
       </p>
+      <aside>
+        <i>
+          Yes, I realize this site is totally self-indulgent. If you aren't here
+          to learn more about me though, maybe you came here by accident?
+          Regardless, this is a "me" site.
+        </i>
+      </aside>
     </div>
   </section>
 </template>

@@ -17,7 +17,38 @@
       </div>
       <div class="w-100 d-lg-none"></div>
       <div class="role-even role-description col-7 order-lg-3 offset-1">
-        <p class="fs-3">Lorem ipsum dolor et ...</p>
+        <p>
+          I have one and a half life-long projects. I say one and a half because
+          it's definitely more than one, but I can't bring myself to say these
+          two workstreams are two separate things. They're pretty inextricably
+          linked for me. So one and a half. Husband and Dad.
+        </p>
+        <p>
+          I've been married since 2000 to Michelle. I can't imagine life without
+          her. Strong, nurturing, caring, demanding, fun. We have three
+          daughters. She tells people she's raising four children, three of whom
+          are nominally adults. I'm not sure she's wrong.
+        </p>
+        <p>
+          As much as I get lost in exploring the contours of whatever I'm
+          working on. She brings me back to pragmatic reality time and time
+          again. Among lots of other things, she's taught me to be cognizant of
+          the fact that those shiny details I love so much only matter to anyone
+          else to the extent I can use them to help someone.
+        </p>
+        <p>
+          But a marriage doesn't survive on love alone. We work hard to build a
+          life together that brings joy to both of us. I see in companies all
+          the time that great ideas do not conquer the world. Great ideas with
+          great execution do. Same with a marriage. I've never worked as hard at
+          anything else.
+        </p>
+        <p>
+          And then there's our girls. I could go on for days on them. "Proud
+          papa," says it all and doesn't say enough. Michelle and I promised
+          each other on the day we met that if we ever had kids, we'd screw them
+          up different. We've succeeded so far.
+        </p>
       </div>
     </div>
   </section>

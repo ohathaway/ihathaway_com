@@ -17,7 +17,7 @@
       </div>
       <div
         id="description"
-        class="role-odd role-description col-6 offset-1 order-lg-2"
+        class="role-odd role-description col-12 col-lg-6 offset-lg-1 order-lg-2"
       >
         <p>
           Yep. I'm an attorney. <i>Queue your favorite attorney joke here.</i>

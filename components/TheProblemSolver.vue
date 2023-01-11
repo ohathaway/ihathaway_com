@@ -36,7 +36,7 @@
           </span>
         </h1>
       </div>
-      <div id="info" class="col-6 offset-1 order-lg-2">
+      <div id="info" class="col-12 col-lg-6 offset-lg-1 order-lg-2">
         <p>
           The problem with problems is that they're just so problematic. Sure, I
           know that statement seems more pedantic than necessary. But consider

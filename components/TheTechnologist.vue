@@ -66,7 +66,7 @@
           </span>
         </h1>
       </div>
-      <div class="role-even role-description col-7 order-lg-3 offset-1">
+      <div class="role-even role-description col-12 col-lg-7 order-lg-3 offset-lg-1">
         <p>
           Defined by
           <a href="https://en.wiktionary.org/wiki/technologist">Wiktionary</a>

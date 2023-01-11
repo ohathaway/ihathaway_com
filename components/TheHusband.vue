@@ -16,7 +16,7 @@
         <h1><font-awesome-icon icon="fa-solid fa-people-roof" /></h1>
       </div>
       <div class="w-100 d-lg-none"></div>
-      <div class="role-even role-description col-7 order-lg-3 offset-1">
+      <div class="role-even role-description col-12 col-lg-7 order-lg-3 offset-lg-1">
         <p>
           I have one and a half life-long projects. I say one and a half because
           it's definitely more than one, but I can't bring myself to say these

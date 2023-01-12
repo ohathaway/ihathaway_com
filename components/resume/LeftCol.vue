@@ -1,6 +1,8 @@
 <template>
   <section class="border-top border-dark pt-5">
-    <h2>Summary</h2>
+    <h2>
+      Summary
+    </h2>
     <p class="px-4 pb-5">
       highly versatile business leader and attorney with 20+ years of experience
       solving complex business, compliance, and IT problems for small to medium
@@ -9,7 +11,9 @@
     </p>
   </section>
   <section class="border-top border-dark pt-5">
-    <h2>Key Skills</h2>
+    <h2>
+      Key Skills
+    </h2>
     <p class="px-4 pb-5">
       organizational leadership &bull; counseling &bull; strategy development
       &bull; contract negotiation and drafting &bull; corporate finance &bull;
@@ -20,7 +24,9 @@
     </p>
   </section>
   <section class="border-top border-dark pt-5">
-    <h2>Technical Skills</h2>
+    <h2>
+      Technical Skills
+    </h2>
     <p class="px-4 pb-5">
       Windows management frameworks &bull; Linux OS &bull; enterprise networking
       &bull; enterprise storage architectures &bull; cybersecurity &bull;
@@ -32,9 +38,11 @@
     </p>
   </section>
   <section class="border-top border-dark pt-5">
-    <h2>Additional information</h2>
+    <h2>
+      Additional information
+    </h2>
     <p class="px-4">
-      willing to travel part-time<br />comfortable and productive in a remote
+      willing to travel part-time<br></br>comfortable and productive in a remote
       work or an office setting
     </p>
   </section>

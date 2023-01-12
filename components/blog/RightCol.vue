@@ -1,16 +1,24 @@
 <template>
   <section class="row mt-5 pe-5">
-    <h2>Professional Experience</h2>
+    <h2>
+      Professional Experience
+    </h2>
     <div class="row">
       <div class="col-md-7 fst-italic">
         general counsel, director finance, director IT
       </div>
       <div class="col-md-5 justify-content-end text-end">
-        <h3 class="fw-light">April 2018 &mdash; Present</h3>
+        <h3 class="fw-light">
+          April 2018 &mdash; Present
+        </h3>
       </div>
     </div>
-    <h3 class="experience ps-4">healthcare revenue cycle management company</h3>
-    <h4 class="experience ps-6 mt-3 fst-italic">General Counsel</h4>
+    <h3 class="experience ps-4">
+      healthcare revenue cycle management company
+    </h3>
+    <h4 class="experience ps-6 mt-3 fst-italic">
+      General Counsel
+    </h4>
     <ul class="ps-8">
       <li>
         advise board of directors on matters concerning corporate governance and
@@ -18,7 +26,9 @@
       </li>
       <li>handle routine business legal matters</li>
     </ul>
-    <h4 class="experience ps-6 mt-3 fst-italic">Director Finance/Treasurer</h4>
+    <h4 class="experience ps-6 mt-3 fst-italic">
+      Director Finance/Treasurer
+    </h4>
     <ul class="ps-8">
       <li>
         eliminated recurring severe errors in invoicing, AR and AP by
@@ -42,7 +52,9 @@
         total equity improved from -640k to +760k (net favorable change 1.4M)
       </li>
     </ul>
-    <h4 class="experience ps-6 mt-3 fst-italic">Director IT</h4>
+    <h4 class="experience ps-6 mt-3 fst-italic">
+      Director IT
+    </h4>
     <ul class="ps-8">
       <li>
         implemented cloud-first IT strategy in 2019 which enabled 0 lost days of
@@ -59,9 +71,13 @@
       </li>
     </ul>
     <div class="row mt-5">
-      <div class="col-md-7 fst-italic">solo attorney</div>
+      <div class="col-md-7 fst-italic">
+        solo attorney
+      </div>
       <div class="col-md-5 justify-content-end text-end">
-        <h3 class="fw-light">October 2011 &mdash; Present</h3>
+        <h3 class="fw-light">
+          October 2011 &mdash; Present
+        </h3>
       </div>
       <p class="ps-6">
         bankruptcy &bull; estate planning &bull; IT acquisitions &bull;
@@ -70,48 +86,76 @@
       </p>
     </div>
     <div class="row mt-5">
-      <div class="col-md-7 fst-italic">principal, general counsel and CTO</div>
+      <div class="col-md-7 fst-italic">
+        principal, general counsel and CTO
+      </div>
       <div class="col-md-5 justify-content-end text-end">
-        <h3 class="fw-light">July 2014 &mdash; February 2016</h3>
+        <h3 class="fw-light">
+          July 2014 &mdash; February 2016
+        </h3>
       </div>
     </div>
-    <h3 class="experience ps-7">Hammock Equity Corporation</h3>
+    <h3 class="experience ps-7">
+      Hammock Equity Corporation
+    </h3>
     <div class="row mt-5">
-      <div class="col-md-7 fst-italic">technical services manager, analyst</div>
+      <div class="col-md-7 fst-italic">
+        technical services manager, analyst
+      </div>
       <div class="col-md-5 justify-content-end text-end">
-        <h3 class="fw-light">July 2014 &mdash; February 2016</h3>
+        <h3 class="fw-light">
+          July 2014 &mdash; February 2016
+        </h3>
       </div>
     </div>
-    <h3 class="experience ps-7">Longmont United Hospital</h3>
+    <h3 class="experience ps-7">
+      Longmont United Hospital
+    </h3>
   </section>
   <section class="mt-5 pt-5 pe-5 border-top border-dark">
-    <h2>Education</h2>
+    <h2>
+      Education
+    </h2>
     <div class="ps-4">
-      <h3 class="experience fst-italic">juris doctor</h3>
+      <h3 class="experience fst-italic">
+        juris doctor
+      </h3>
       <div class="row ps-0">
         <div class="col-md-7 p-0">
-          <h3 class="experience">University of Denver, Sturm College of Law</h3>
+          <h3 class="experience">
+            University of Denver, Sturm College of Law
+          </h3>
         </div>
         <div class="col-md-5 justify-content-end text-end">
-          <h3 class="fw-light">May 2011</h3>
+          <h3 class="fw-light">
+            May 2011
+          </h3>
         </div>
       </div>
       <p class="ps-5">
-        academic excellence awards in corporations and cyberlaw<br />
+        academic excellence awards in corporations and cyberlaw<br></br>
         nominated for excellence in oral advocacy award
       </p>
     </div>
     <div class="ps-4">
-      <h3 class="experience fst-italic">bachelor of arts, magna cum laude</h3>
+      <h3 class="experience fst-italic">
+        bachelor of arts, magna cum laude
+      </h3>
       <div class="row ps-0">
         <div class="col-md-7">
-          <h3 class="experience">Regis University</h3>
+          <h3 class="experience">
+            Regis University
+          </h3>
         </div>
         <div class="col-md-5 justify-content-end text-end">
-          <h3 class="fw-light">April 2005</h3>
+          <h3 class="fw-light">
+            April 2005
+          </h3>
         </div>
       </div>
-      <p class="ps-7">organizational development with minor in communication</p>
+      <p class="ps-7">
+        organizational development with minor in communication
+      </p>
     </div>
   </section>
   <section class="mt-5 pt-5 pe-5 border-top border-dark">

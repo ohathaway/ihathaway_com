@@ -2,8 +2,12 @@
   <section id="intro" class="row">
     <header class="row">
       <div class="intro-name col-sm-12">
-        <h1 class="my-name d-none d-lg-block">Owen Hathaway</h1>
-        <h1 class="my-name d-lg-none fs-1">Owen Hathaway</h1>
+        <h1 class="my-name d-none d-lg-block">
+          Owen Hathaway
+        </h1>
+        <h1 class="my-name d-lg-none fs-1">
+          Owen Hathaway
+        </h1>
         <span class="my-roles">
           <a href="#attorney">attorney</a> &bull;
           <a href="#technologist">technologist</a> &bull;

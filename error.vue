@@ -7,12 +7,21 @@
       </div>
       <div class="col-7">
         <p>Meanwhile, please enjoy the following Internet cat video.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/fEs6O2NGdrs?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fEs6O2NGdrs?autoplay=1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
       </div>
     </div>
     <div class="row">
       <div class="col-12">
-        <button class="btn btn-secondary" @click="handleError">or go Home</button>
+        <button class="btn btn-secondary" @click="handleError">
+          or go Home
+        </button>
       </div>
     </div>
   </div>
@@ -20,11 +29,11 @@
 
 <script setup>
 const props = defineProps({
-  error: Object
+  error: Object // eslint-disable-line vue/require-default-prop
 })
 
 console.error('error: ', props.error)
-const handleError = () => clearError({ redirect: '/' })
+const handleError = () => clearError({ redirect: '/' }) // eslint-disable-line no-undef
 </script>
 
 <style lang="scss">
@@ -38,7 +47,8 @@ h1 {
   font-family: TrajanPro;
 }
 
-h2, p {
+h2,
+p {
   font-family: Optima;
 }
 

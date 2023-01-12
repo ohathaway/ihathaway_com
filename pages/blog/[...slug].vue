@@ -1,8 +1,8 @@
 <template>
   <div id="blog">
     <div class="row w-100">
-      <div class="col-3 bg-gray h-25 p-4 d-none d-md-block"></div>
-      <div class="col-9"></div>
+      <div class="col-3 bg-gray h-25 p-4 d-none d-md-block" />
+      <div class="col-9" />
     </div>
     <header id="topNav" :class="topNavClasses">
       <div class="col-md-3 bg-gray ps-5">
@@ -19,7 +19,11 @@
         <p>
           <font-awesome-icon icon="fa-solid fa-house-chimney-user" />
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <NuxtLink to="/">Home</NuxtLink>
+          <!-- eslint-disable prettier/prettier -->
+          <NuxtLink to="/">
+            Home
+          </NuxtLink>
+          <!-- eslint-enable prettier/prettier -->
         </p>
       </div>
       <div class="col-md-9 text-center mb-0 py-5 bg-gray text-blue-900">
@@ -36,13 +40,13 @@
 
 <script setup>
 var topNavClasses = [
-  "row",
-  "justify-content-end",
-  "m-0",
-  "w-100",
-  "position-sticky",
-  "top-0",
-];
+  'row',
+  'justify-content-end',
+  'm-0',
+  'w-100',
+  'position-sticky',
+  'top-0'
+]
 </script>
 
 <style lang="scss">

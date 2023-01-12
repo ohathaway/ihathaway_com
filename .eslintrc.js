@@ -1,4 +1,9 @@
 module.exports = {
+  extends: [
+    "@nuxtjs/eslint-config-typescript",
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
   overrides: [
     {
       files: ['*.vue'],
@@ -14,5 +19,4 @@ module.exports = {
   parserOptions: {
     parser: "@typescript-eslint/parser",
   },
-  extends: ["@nuxtjs/eslint-config-typescript", "plugin:prettier/recommended"],
 };

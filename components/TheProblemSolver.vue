@@ -50,13 +50,17 @@
           <a
             href="https://www.verywellmind.com/what-is-active-listening-3024343"
             title="Active Listening"
-            >active listening</a
-          >. More recently trendy folks have talked about this concept as
+          >
+            active listening
+          </a>
+          . More recently trendy folks have talked about this concept as
           <a
             href="https://mindfulnessexercises.com/what-is-mindful-listening/"
             title="Mindful Listening"
-            >mindful listening</a
-          >. Whatever you want to call it, I aspire to the principles espoused
+          >
+            mindful listening
+          </a>
+          . Whatever you want to call it, I aspire to the principles espoused
           under both labels.
         </p>
         <p>
@@ -65,29 +69,36 @@
           <a
             href="https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb"
             title="Nassim Taleb"
-            >Nassim Taleb</a
-          >,
+          >
+            Nassim Taleb
+          </a>
+          ,
           <a
             href="https://en.wikipedia.org/wiki/Daniel_Kahneman"
             title="Daniel Kahneman"
-            >Daniel Kahneman</a
-          >,
-          <a href="https://en.wikipedia.org/wiki/Max_Weber" title="Max Weber"
-            >Max Weber</a
           >
+            Daniel Kahneman
+          </a>
+          ,
+          <a href="https://en.wikipedia.org/wiki/Max_Weber" title="Max Weber">
+            Max Weber
+          </a>
           (although not in German),
           <a
             href="https://en.wikipedia.org/wiki/Tyler_Cowen"
             title="Tyler Cowen"
-            >Tyler Cowen</a
           >
+            Tyler Cowen
+          </a>
           (unfortunately, I think he's too eclectic to win the economics Nobel
           Prize he deserves), and
           <a
             href="https://en.wikipedia.org/wiki/Steven_Pinker"
             title="Steven Pinker"
-            >Steven Pinker</a
-          >.
+          >
+            Steven Pinker
+          </a>
+          .
         </p>
         <p>
           After doing some thinking, I reach into my toolbox to see what I have

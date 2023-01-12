@@ -88,8 +88,7 @@
           <a
             href="https://en.wikipedia.org/wiki/Luddite"
             title="Early Eighteenth Century Secret Society - the Luddites"
-            >Luddites'</a
-          >
+          >Luddites'</a>
           approach to technology, I approach problem solving using the best tool
           I have for the job. I am a walking stereotype when it comes to guys
           and gadgets, but that fascination affords me the ability to bring a

@@ -13,7 +13,9 @@
         id="icon"
         class="role-odd role-icon col-1 order-lg-1 d-none d-lg-block"
       >
-        <h1><font-awesome-icon icon="fa-solid fa-scale-balanced" /></h1>
+        <h1>
+          <font-awesome-icon icon="fa-solid fa-scale-balanced" />
+        </h1>
       </div>
       <div
         id="description"
@@ -33,13 +35,15 @@
           Yes, it's the basic toolset of a transactional attorney. But I enjoy
           it, and I love living vicariously through my clients' dreams.
         </p>
-        <p>Some of those things I know how to do include:</p>
+        <p>
+          Some of those things I know how to do include:
+        </p>
 
         <ul>
           <li class="mb-2">
-            <span class="text-decoration-underline"
-              >Educating small business owners</span
-            >
+            <span class="text-decoration-underline">
+              Educating small business owners
+            </span>
             - When you get that spark of an idea the grows into a passion to
             build a business, your eyes don't light up discussing entity types,
             voting procedures, tax models, involuntary exits, and all the other
@@ -52,9 +56,9 @@
             as the plan encounters real life.
           </li>
           <li class="mb-2">
-            <span class="text-decoration-underline"
-              >Writing tight contracts in English instead of Nerdlish</span
-            >
+            <span class="text-decoration-underline">
+              Writing tight contracts in English instead of Nerdlish
+            </span>
             - Written contracts influence so much of our interaction with other
             humans (and increasingly with non-humans too). So many of the folks
             I work with don't know or understand what they've agreed to until
@@ -64,9 +68,9 @@
             message.
           </li>
           <li class="mb-2">
-            <span class="text-decoration-underline"
-              >Untangling financial rats' nests</span
-            >
+            <span class="text-decoration-underline">
+              Untangling financial rats' nests
+            </span>
             - Not every startup assembles the team of professionals it takes to
             do things right. Most, in fact, just jump right in and start
             selling. A day of reckoning always comes. Maybe I inherited my CPA
@@ -79,9 +83,9 @@
             protection in bankruptcy.
           </li>
           <li>
-            <span class="text-decoration-underline"
-              >Preparing for the ultimate exit strategy</span
-            >
+            <span class="text-decoration-underline">
+              Preparing for the ultimate exit strategy
+            </span>
             - Regardless of whether you plan to sell your business to an
             investor, try to take it public, or just run it until you're done,
             we all exit business the same way in the end. Especially with

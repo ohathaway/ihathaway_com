@@ -1,7 +1,7 @@
 <template>
   <div class="row w-100">
-    <div class="col-3 bg-gray h-25 p-4 d-none d-md-block"></div>
-    <div class="col-9"></div>
+    <div class="col-3 bg-gray h-25 p-4 d-none d-md-block" />
+    <div class="col-9" />
   </div>
   <header id="topNav" :class="topNavClasses">
     <div class="col-md-3 bg-gray ps-5">
@@ -36,24 +36,24 @@
 
 <script setup>
 var topNavClasses = [
-  "row",
-  "justify-content-end",
-  "m-0",
-  "w-100",
-  "position-sticky",
-  "top-0",
-];
+  'row',
+  'justify-content-end',
+  'm-0',
+  'w-100',
+  'position-sticky',
+  'top-0'
+]
 
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unused-vars, no-unused-vars */
 const setBarSize = () => {
   if (document.body.scrollTop > 48 || document.documentElement.scrollTop > 48) {
-    console.debug("click");
-    document.getElementById("topNav").style.background = "black";
+    console.debug('click')
+    document.getElementById('topNav').style.background = 'black'
   } else {
-    document.getElementById("topNav").style.background = "green";
+    document.getElementById('topNav').style.background = 'green'
   }
-};
-/* eslint-enable @typescript-eslint/no-unused-vars */
+}
+/* eslint-enable @typescript-eslint/no-unused-vars, no-unused-vars */
 
 // window.onscroll = () => setBarSize()
 </script>

@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.3.0",
+    "eslint-plugin-vue": "^9.8.0",
     "nuxt": "3.0.0",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0"

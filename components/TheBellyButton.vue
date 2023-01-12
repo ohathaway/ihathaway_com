@@ -6,9 +6,11 @@
     <div class="col-lg-8">
       <div class="text-center mb-5">
         <h4 class="text-capitalize text-light">
-          Psychologists will tell you that the best way to be happy is <br></br>
-          not to pursue happiness directly. It should be a side effect of
-          <br></br>life lived with purpose.
+          <!-- eslint-disable vue/html-self-closing -->
+          Psychologists will tell you that the best way to be happy is <br />
+          not to pursue happiness directly. It should be a side effect of <br />
+          life lived with purpose.
+          <!-- eslint-enable vue/html-self-closing -->
         </h4>
         <i>David Roberts</i>
       </div>

@@ -131,8 +131,10 @@
         </div>
       </div>
       <p class="ps-5">
-        academic excellence awards in corporations and cyberlaw<br></br>
+        <!-- eslint-disable vue/html-self-closing -->
+        academic excellence awards in corporations and cyberlaw<br />
         nominated for excellence in oral advocacy award
+        <!-- eslint-enable vue/html-self-closing -->
       </p>
     </div>
     <div class="ps-4">

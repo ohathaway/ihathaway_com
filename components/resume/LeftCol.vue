@@ -42,8 +42,10 @@
       Additional information
     </h2>
     <p class="px-4">
-      willing to travel part-time<br></br>comfortable and productive in a remote
+      <!-- eslint-disable vue/html-self-closing -->
+      willing to travel part-time<br />comfortable and productive in a remote
       work or an office setting
+      <!-- eslint-enable vue/html-self-closing -->
     </p>
   </section>
 </template>

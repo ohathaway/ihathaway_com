@@ -4,6 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import {
   faArrowDown,
   faBan,
+  faBlog,
   faCircle,
   faCircleInfo,
   faDatabase,
@@ -28,6 +29,7 @@ config.autoAddCss = false;
 library.add(
   faArrowDown,
   faBan,
+  faBlog,
   faCircle,
   faCircleInfo,
   faEnvelope,

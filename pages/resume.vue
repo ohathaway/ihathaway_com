@@ -14,8 +14,10 @@
   background: $gainsboro;
   a {
     color: $dark;
+    text-decoration: none;
     &:hover {
       color: $dark-cornflower-blue;
+      text-decoration: underline;
     }
   }
 }

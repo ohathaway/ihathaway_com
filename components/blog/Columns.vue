@@ -4,7 +4,7 @@
       <BlogLeftCol />
     </div>
     <div class="col-md-9 m-0 ps-5">
-      <BlogRightCol />
+      <ContentDoc />
     </div>
   </div>
 </template>

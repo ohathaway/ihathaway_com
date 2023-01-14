@@ -31,9 +31,7 @@
       </div>
     </header>
     <main>
-      <BlogColumns>
-        <ContentDoc />
-      </BlogColumns>
+      <BlogColumns />
     </main>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="row w-100">
+  <div id="topSpacer" class="row w-100">
     <div class="col-3 bg-gray h-25 p-4 d-none d-md-block" />
     <div class="col-9" />
   </div>
@@ -56,9 +56,9 @@
 import { onMounted } from 'vue'
 import { forEach } from 'lodash'
 import { useRoute } from 'vue-router'
+import { isEmpty } from 'lodash'
 
 const route = useRoute()
-console.debug('route: ', route)
 
 const topNavClasses = [
   'row',
@@ -68,18 +68,25 @@ const topNavClasses = [
   'position-sticky',
   'top-0'
 ]
+const articleRegex = new RegExp('/blog/[a-z,A-Z,0-9].*')
+const isArticle = articleRegex.test(route.path)
 
 /* eslint-disable @typescript-eslint/no-unused-vars, no-unused-vars */
 const setBarSize = () => {
-  if (document.body.scrollTop > 48 || document.documentElement.scrollTop > 48) {
+  if (isArticle) {
+    document.getElementById('topSpacer').classList.add('d-none')
+  }
+  if (document.body.scrollTop > 48 ||
+      document.documentElement.scrollTop > 48 ||
+      isArticle
+    ) {
     document.getElementById('myName').firstChild.style.fontSize = '32px'
     document.getElementById('myName').style.padding = '0.8rem'
-    document.getElementById('subtitle').style.display = 'none'
+    // document.getElementById('subtitle').style.display = 'none'
     document.getElementById('contact-items').style.padding = '1rem'
 
     const horizontal = ['list-group', 'list-group-horizontal'].map( htmlClass => {
       document.getElementById('contact-items').classList.add(htmlClass)
-      console.debug('hello debug')
     })
     forEach( document.getElementsByClassName('contact-item'), item => {
       item.classList.remove('my-4')
@@ -108,6 +115,7 @@ const setBarSize = () => {
 /* eslint-enable @typescript-eslint/no-unused-vars, no-unused-vars */
 
 onMounted( () => {
+  setBarSize()
   window.onscroll = () => setBarSize()
 })
 </script>

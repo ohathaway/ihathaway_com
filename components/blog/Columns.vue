@@ -4,10 +4,14 @@
       <BlogLeftCol />
     </div>
     <div class="col-md-9 m-0 ps-5">
-      <ContentDoc />
+      <BlogRightCol />
     </div>
   </div>
 </template>
+
+<script setup>
+const pageData = inject('pageData')
+</script>
 
 <style lang="scss">
 #blog-cols h2 {

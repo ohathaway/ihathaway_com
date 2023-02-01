@@ -2,7 +2,7 @@
   <div id="blog">
     <ResumeHeader />
     <main>
-      <BlogColumns />
+      <BlogRightCol />
     </main>
   </div>
 </template>
@@ -51,19 +51,3 @@ useHead({
 
 provide('pageData', data)
 </script>
-
-<style lang="scss">
-#blog {
-  font-family: Optima;
-  font-size: 90%;
-}
-.bg-gray {
-  background: $gainsboro;
-  a {
-    color: $dark;
-    &:hover {
-      color: $dark-cornflower-blue;
-    }
-  }
-}
-</style>

@@ -18,7 +18,7 @@
             <span class="contact-text">link with me</span>
           </a>
         </li>
-        <li v-if="route.name === 'resume'" class="contact-item my-4">
+        <li v-if="route.name === 'resume'" class="contact-item my-3">
           <a href="./assets/images/resume.pdf">
             <span class="fa-layers fa-fw">
               <font-awesome-icon icon="fa-regular fa-file" />
@@ -68,7 +68,8 @@ const topNavClasses = [
   'position-sticky',
   'top-0'
 ]
-const articleRegex = new RegExp('/blog/[a-z,A-Z,0-9].*')
+// const articleRegex = new RegExp('/blog/[a-z,A-Z,0-9].*')
+const articleRegex = new RegExp('/blog.*')
 const isArticle = articleRegex.test(route.path)
 
 /* eslint-disable @typescript-eslint/no-unused-vars, no-unused-vars */

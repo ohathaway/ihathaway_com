@@ -40,10 +40,12 @@ const props = defineProps(['type'])
     border-color: $warning;
     background: $yellow-200;
   }
+
   summary::marker {
     display: none;
     content: "";
   }
+
   summary svg {
     float: left;
     padding-right: 1.6rem;

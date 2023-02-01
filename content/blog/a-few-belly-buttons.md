@@ -1,7 +1,7 @@
 ---
-title: A Few Belly Butotns
+title: A Few Belly Buttons
 description: A second post, maybe with some content later
-img: 'img/cover (1).JPG'
+img: 'article-images/baby-outtie.jpg'
 tags: [Owen Hathaway, Manifesto, belly-button]
 ---
 # Everyone has a belly button, some have two

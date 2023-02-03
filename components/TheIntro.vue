@@ -18,7 +18,7 @@
     </header>
     <div class="row">
       <div class="intro-arrow col-sm-1 col-sm-offset-11">
-        <a href="#bellybutton">
+        <a href="#bellybutton" title="The Belly Button">
           <span class="fa-stack fa-2x">
             <font-awesome-icon
               icon="fa-solid fa-circle"

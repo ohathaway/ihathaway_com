@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en'
+      },
+      title: 'Owen Hathaway\'s Personal Website'
+    }
+  },
   build: {
     transpile: [
       '@fortawesome/vue-fontawesome',

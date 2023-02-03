@@ -37,7 +37,7 @@
         class="role-even role-icon text-start d-none d-lg-block col-1 order-lg-2"
       >
         <h1>
-          <span class="fa-layers fa-fw">
+          <span class="fa-layers fa-fw ms-lg-5">
             <font-awesome-icon
               icon="fa-solid fa-circle"
               inverse
@@ -66,13 +66,21 @@
           </span>
         </h1>
       </div>
-      <div class="role-even role-description col-12 col-lg-7 order-lg-3 offset-lg-1">
+      <div
+        class="role-even
+               role-description
+               col-12 col-lg-7
+               order-lg-3
+               offset-lg-1"
+      >
         <p>
           Defined by
           <a href="https://en.wiktionary.org/wiki/technologist">Wiktionary</a>
           as
         </p>
-        <blockquote cite="https://en.wiktionary.org/wiki/technologist">
+        <blockquote cite="https://en.wiktionary.org/wiki/technologist"
+          class="ps-2 fst-italic text-muted"
+        >
           A person who uses science or technology to solve practical problems.
         </blockquote>
         <p>
@@ -84,7 +92,7 @@
           kingdom.
         </p>
         <p>
-          Rather than adopting the
+          In contrast to the 
           <a
             href="https://en.wikipedia.org/wiki/Luddite"
             title="Early Eighteenth Century Secret Society - the Luddites"
@@ -99,11 +107,10 @@
           accomplish incredible things.
         </p>
         <p>
-          When it comes to tools, my biggest toolset contains IT-related stuff.
+          When it comes to tools, my broadest toolset contains IT-related stuff.
           A few of the things I can use with some competency:
         </p>
         <ul>
-          <li>Windows management frameworks</li>
           <li>Windows management frameworks</li>
           <li>Linux OS</li>
           <li>enterprise networking</li>

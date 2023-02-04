@@ -29,4 +29,4 @@ $spacers: map-merge($spacers, $more-spacers);
 
 @import "bootstrap/scss/bootstrap";
 @import "@fortawesome/fontawesome-svg-core/styles.css";
-@import "colors", "fonts";
+@import "colors", "defaults", "fonts";

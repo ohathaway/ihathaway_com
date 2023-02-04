@@ -1,8 +1,8 @@
 <template>
   <div id="blog">
-    <ResumeHeader />
+    <BlogIntro />
     <main>
-      <BlogRightCol />
+      <BlogPost />
     </main>
   </div>
 </template>

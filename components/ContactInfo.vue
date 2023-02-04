@@ -38,15 +38,9 @@
   h1 {
     color: #f9f9f9;
   }
-  header {
-    // margin-left: 5rem;
-    // padding-right: 6rem;
-    // text-align: right;
-  }
   #info {
     border-left: 1px solid $gainsboro;
     // padding-left: 3rem;
-    font-size: 200%;
     @media (max-width: 992px) {
       font-size: 150%;
     }

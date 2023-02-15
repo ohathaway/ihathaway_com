@@ -1,8 +1,16 @@
 ---
-title: The Belly Button Principle
-description: Drawing an initial sketch of the Belly Button Principle
+title: Colorado Telehealth Network - HIPAA-Compliant Community Area Network
+description: >
+  A big deal that connected over 160 separate sites in Colorado via multi-point
+  VPN with connectivity to the public Internet and Internet2.
 img: 'article-images/baby-outtie.jpg'
-tags: [Owen Hathaway, Manifesto, belly-button]
+tags: [healthcare, technology, networking, HIPAA, convener]
+head:
+  meta:
+    - name: 'project-start'
+      content: '7/2007'
+    - name: 'client'
+      content: 'Colorado Hospital Association'
 ---
 ## Hello Belly Button
 

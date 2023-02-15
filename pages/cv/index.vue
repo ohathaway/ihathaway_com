@@ -1,7 +1,7 @@
 <template>
   <div id="cv" class="m-0 p-0">
-    <ResumeHeader />
-    <ResumeColumns />
+    <CvHeader />
+    <CvColumns />
   </div>
 </template>
 

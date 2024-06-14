@@ -92,7 +92,7 @@
             family-owned businesses, end-of-life planning ensures the legacy
             lives on the way the founders want. Whether that means ensuring a
             succession for the business or winding it up and distributing the
-            fruits of a life well-lived, Wills, trusts, powers-of-attorney and
+            fruits of a life well-lived, wills, trusts, powers-of-attorney and
             other documents can make all the difference in ensuring it goes
             smoothly. Oh, and don't forget life insurance. It's a powerful tool.
           </li>

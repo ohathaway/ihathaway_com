@@ -53,7 +53,7 @@
           >
             active listening
           </a>
-          . More recently trendy folks have talked about this concept as
+          . More recently, trendy folks have talked about this concept as
           <a
             href="https://mindfulnessexercises.com/what-is-mindful-listening/"
             title="Mindful Listening"
@@ -71,15 +71,13 @@
             title="Nassim Taleb"
           >
             Nassim Taleb
-          </a>
-          ,
+          </a>,
           <a
             href="https://en.wikipedia.org/wiki/Daniel_Kahneman"
             title="Daniel Kahneman"
           >
             Daniel Kahneman
-          </a>
-          ,
+          </a>,
           <a href="https://en.wikipedia.org/wiki/Max_Weber" title="Max Weber">
             Max Weber
           </a>
@@ -97,8 +95,7 @@
             title="Steven Pinker"
           >
             Steven Pinker
-          </a>
-          .
+          </a>.
         </p>
         <p>
           After doing some thinking, I reach into my toolbox to see what I have

@@ -28,7 +28,7 @@
         <p>
           I've been married since 2000 to Michelle. I can't imagine life without
           her. Strong, nurturing, caring, demanding, fun. We have three
-          daughters. She tells people she's raising four children, three of whom
+          daughters. She tells people she's raising four children, all of whom
           are nominally adults. I'm not sure she's wrong.
         </p>
         <p>
@@ -49,7 +49,7 @@
           And then there's our girls. I could go on for days on them. "Proud
           papa," says it all and doesn't say enough. Michelle and I promised
           each other on the day we met that if we ever had kids, we'd screw them
-          up different. We've succeeded so far.
+          up different. I think we've succeeded so far.
         </p>
       </div>
     </div>

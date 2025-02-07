@@ -44,7 +44,7 @@
             <span class="text-decoration-underline">
               Educating small business owners
             </span>
-            - When you get that spark of an idea the grows into a passion to
+            - When you get that spark of an idea that grows into a passion to
             build a business, your eyes don't light up discussing entity types,
             voting procedures, tax models, involuntary exits, and all the other
             legal mumbo jumbo involved with startups. Your passion centers on
@@ -78,7 +78,7 @@
             accounting-for-non-accounting-majors education in undergrad has
             helped me save more than one business from itself. I'm no CPA, but I
             know what well-kept books look like, and I can translate between
-            numbers and business process. And if the nest is so tangled there
+            numbers and business processes. And if the nest is so tangled there
             just isn't any hope, I can guide the business or its owners through
             protection in bankruptcy.
           </li>

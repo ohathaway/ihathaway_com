@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       title: 'Owen Hathaway\'s Personal Website'
     }
   },
+
   build: {
     transpile: [
       '@fortawesome/vue-fontawesome',
@@ -17,16 +18,22 @@ export default defineNuxtConfig({
       '@fortawesome/free-brands-svg-icons',
     ],
   },
+
   content: {
     // https://content.nuxtjs.org/api/configuration
     documentDriven: true
   },
+
   modules: ['@nuxt/content'],
+
   nitro: {
-    preset: 'service-worker'
+    // preset: 'service-worker'
+    preset: 'cloudflare-pages'
   },
+
   ssr: false,
   target: "static",
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -36,4 +43,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: '2025-02-06',
 });

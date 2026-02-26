@@ -1,0 +1,121 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-svg-core/styles.css";
+
+/* ── Color custom properties ── */
+:root {
+  --pale-cerulean: rgba(146, 180, 213, 1);
+  --baby-blue-eyes: rgba(161, 198, 234, 1);
+  --light-slate-gray: rgba(115, 133, 151, 1);
+  --onyx: rgba(68, 68, 68, 1);
+  --dark-cornflower-blue: rgba(34, 60, 111, 1);
+  --egyptian-blue: rgba(0, 51, 153, 1);
+  --glaucous: rgba(94, 130, 194, 1);
+  --light-steel-blue: rgba(187, 209, 234, 1);
+  --gainsboro: rgba(218, 227, 229, 1);
+  --primary: rgba(0, 51, 153, 1);
+  --secondary: rgba(161, 198, 234, 1);
+  --dark: rgba(68, 68, 68, 1);
+  --light: #f8f9fa;
+  --lite-slate-gray-text: #111110;
+  --blue-900: rgba(34, 60, 111, 1);
+  --red-700: #b02a37;
+  --red-200: #f1aeb5;
+  --danger: #dc3545;
+  --yellow-700: #997404;
+  --yellow-200: #ffe69c;
+  --warning: #ffc107;
+}
+
+/* ── Fonts ── */
+@font-face {
+  font-family: TrajanPro;
+  src: url("@/assets/fonts/TrajanPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: Optima;
+  src: url("@/assets/fonts/Optima.ttc");
+}
+
+@font-face {
+  font-family: HypatiaSans;
+  src: url("@/assets/fonts/HypatiaSansPro.woff2");
+}
+
+/* ── Body / heading / link defaults ── */
+body {
+  font-family: Optima;
+
+  a {
+    color: var(--gainsboro);
+    font-family: Optima;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--light-steel-blue);
+      text-decoration: underline;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: TrajanPro;
+    color: var(--primary);
+  }
+
+  h2 {
+    font-size: 140%;
+  }
+
+  .w-60 {
+    width: 60%;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .bg-gray {
+    background: var(--gainsboro);
+
+    a {
+      color: var(--dark);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--dark-cornflower-blue);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* ── Custom spacer utilities (6 = 4rem, 7 = 5rem, 8 = 7rem, 9 = 10rem) ── */
+.p-6 { padding: 4rem !important; }
+.p-7 { padding: 5rem !important; }
+.p-8 { padding: 7rem !important; }
+.p-9 { padding: 10rem !important; }
+
+.pt-6 { padding-top: 4rem !important; }
+
+.ps-6 { padding-left: 4rem !important; }
+.ps-7 { padding-left: 5rem !important; }
+.ps-8 { padding-left: 7rem !important; }
+
+.pe-7 { padding-right: 5rem !important; }
+
+.px-9 { padding-left: 10rem !important; padding-right: 10rem !important; }
+
+.py-7 { padding-top: 5rem !important; padding-bottom: 5rem !important; }
+
+@media (min-width: 992px) {
+  .p-lg-7 { padding: 5rem !important; }
+  .p-lg-8 { padding: 7rem !important; }
+  .px-lg-9 { padding-left: 10rem !important; padding-right: 10rem !important; }
+  .py-lg-5 { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+  .py-lg-7 { padding-top: 5rem !important; padding-bottom: 5rem !important; }
+  .pt-lg-2 { padding-top: 0.5rem !important; }
+}

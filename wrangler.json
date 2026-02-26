@@ -1,20 +1,27 @@
 {
-  "name": "ihathaway-com",
-  "pages_build_output_dir": "dist",
-  "compatibility_date": "2024-08-19",
-  "compatibility_flags": [
-    "nodejs_compat_v2"
-  ],
-  "vars": {
-    "LAWMATICS_URL": "https://api.lawmatics.com",
-    "NODE_VERSION": "20.18"
-  },
-  "env": {
-    "production": {
-      "vars": {
-        "LAWMATICS_URL": "https://api.lawmatics.com",
-        "NODE_VERSION": "20.18"
-      }
-    }
-  }
+	"name": "ihathaway-com",
+	"pages_build_output_dir": "dist",
+	"compatibility_date": "2024-08-19",
+	"compatibility_flags": [
+		"nodejs_compat_v2"
+	],
+	"vars": {
+		"LAWMATICS_URL": "https://api.lawmatics.com",
+		"NODE_VERSION": "20.18"
+	},
+	"env": {
+		"production": {
+			"vars": {
+				"LAWMATICS_URL": "https://api.lawmatics.com",
+				"NODE_VERSION": "20.18"
+			}
+		}
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "ihathaway-content",
+			"database_id": "d5bf33da-568e-40b5-9f68-f2b3595f4d95"
+		}
+	]
 }

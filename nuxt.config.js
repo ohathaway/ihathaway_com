@@ -19,10 +19,7 @@ export default defineNuxtConfig({
     ],
   },
 
-  content: {
-    // https://content.nuxtjs.org/api/configuration
-    documentDriven: true
-  },
+  css: ['~/assets/styles/global.css'],
 
   modules: ['@nuxt/content'],
 
@@ -32,17 +29,6 @@ export default defineNuxtConfig({
   },
 
   ssr: false,
-  target: "static",
-
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: '@import "@/assets/styles/global.scss";',
-        },
-      },
-    },
-  },
 
   compatibilityDate: '2025-02-07',
 });

@@ -91,7 +91,7 @@ Defined in `content.config.ts` with Zod schemas:
 - Deployed via Cloudflare Pages
 - D1 database binding: `DB` → `ihathaway-content` (id: `d5bf33da-568e-40b5-9f68-f2b3595f4d95`)
 - Env var: `LAWMATICS_URL` (used for contact/legal integrations)
-- Node version: 20.18
+- Node version: 22.22 (required — Nuxt 4 needs ^20.19.0 or >=22.12.0; Cloudflare's build env has 22.22 available)
 
 ## Conventions
 

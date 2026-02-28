@@ -1,6 +1,5 @@
 module.exports = {
   extends: [
-    "@nuxtjs/eslint-config-typescript",
     "eslint:recommended",
     "plugin:vue/recommended"
   ],

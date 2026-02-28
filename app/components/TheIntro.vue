@@ -12,6 +12,7 @@
           <a href="#attorney">attorney</a> &bull;
           <a href="#technologist">technologist</a> &bull;
           <a href="#problem-solver">problem solver</a> &bull;
+          <a href="#writer">writer</a> &bull;
           <a href="#husband">husband</a>
         </span>
       </div>

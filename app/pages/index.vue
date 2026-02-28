@@ -6,6 +6,7 @@
       <TheAttorney />
       <TheTechnologist />
       <TheProblemSolver />
+      <TheWriter />
       <TheHusband />
     </div>
     <ContactInfo />

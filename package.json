@@ -10,7 +10,6 @@
     "lintfix": "npm run lint:js --fix"
   },
   "devDependencies": {
-    "better-sqlite3": "^12.6.2",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-vue": "^9.8.0",
@@ -23,7 +22,6 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^3.0.2",
-    "@nuxt/content": "^3.0.0",
     "@typescript-eslint/parser": "^5.48.0",
     "bootstrap": "^5.2.3",
     "lodash": "^4.17.21",

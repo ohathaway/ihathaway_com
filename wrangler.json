@@ -17,11 +17,5 @@
 			}
 		}
 	},
-	"d1_databases": [
-		{
-			"binding": "DB",
-			"database_name": "ihathaway-content",
-			"database_id": "d5bf33da-568e-40b5-9f68-f2b3595f4d95"
-		}
-	]
+	"_note": "D1 binding removed - was used by @nuxt/content v3, no longer needed"
 }

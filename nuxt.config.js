@@ -21,8 +21,6 @@ export default defineNuxtConfig({
 
   css: ['~/assets/styles/global.css'],
 
-  modules: ['@nuxt/content'],
-
   nitro: {
     // preset: 'service-worker'
     preset: 'cloudflare-pages'

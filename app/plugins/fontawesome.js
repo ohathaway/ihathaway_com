@@ -18,14 +18,13 @@ import {
   faScaleBalanced,
   faTriangleExclamation,
   faUserTie,
-} from "@fortawesome/free-solid-svg-icons";
-import { faFile as farFile } from "@fortawesome/free-regular-svg-icons";
+} from "@fortawesome/pro-solid-svg-icons";
+import { faFile as farFile } from "@fortawesome/pro-regular-svg-icons";
+import { faPenNib } from "@fortawesome/pro-solid-svg-icons";
 
 // This is important, we are going to let Nuxt.js worry about the CSS
 config.autoAddCss = false;
 
-// You can add your icons directly in this plugin. See other examples for how you
-// can add other styles or just individual icons.
 library.add(
   faArrowDown,
   faBan,
@@ -41,6 +40,7 @@ library.add(
   faNetworkWired,
   faPeopleRoof,
   faPlay,
+  faPenNib,
   faScaleBalanced,
   faTriangleExclamation,
   faUserTie,

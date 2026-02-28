@@ -15,12 +15,12 @@ import {
   faNetworkWired,
   faPeopleRoof,
   faPlay,
+  faPenNib,
   faScaleBalanced,
   faTriangleExclamation,
   faUserTie,
 } from "@fortawesome/pro-solid-svg-icons";
 import { faFile as farFile } from "@fortawesome/pro-regular-svg-icons";
-import { faPenNib } from "@fortawesome/pro-solid-svg-icons";
 
 // This is important, we are going to let Nuxt.js worry about the CSS
 config.autoAddCss = false;

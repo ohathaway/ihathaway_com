@@ -4,7 +4,7 @@
       <header class="role-odd role-name col-lg-3 order-lg-1">
         <h1>
           <div class="fa-layers fa-fw d-lg-none pe-3">
-            <font-awesome-icon icon="fa-solid fa-circle" inverse transform="grow-12" />
+            <font-awesome-icon icon="fa-solid fa-circle" transform="grow-12" />
             <font-awesome-icon icon="fa-solid fa-pen-nib" inverse transform="shrink-4" />
           </div>
           Writer
@@ -13,7 +13,7 @@
       <div class="role-odd role-icon text-start d-none d-lg-block col-1 order-lg-2">
         <h1>
           <span class="fa-layers fa-fw ms-lg-5">
-            <font-awesome-icon icon="fa-solid fa-circle" inverse transform="grow-12" />
+            <font-awesome-icon icon="fa-solid fa-circle" transform="grow-12" />
             <font-awesome-icon icon="fa-solid fa-pen-nib" inverse transform="shrink-4" />
           </span>
         </h1>

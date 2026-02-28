@@ -7,15 +7,14 @@
 	],
 	"vars": {
 		"LAWMATICS_URL": "https://api.lawmatics.com",
-		"NODE_VERSION": "20.18"
+		"NODE_VERSION": "22.14"
 	},
 	"env": {
 		"production": {
 			"vars": {
 				"LAWMATICS_URL": "https://api.lawmatics.com",
-				"NODE_VERSION": "20.18"
+				"NODE_VERSION": "22.14"
 			}
 		}
-	},
-	"_note": "D1 binding removed - was used by @nuxt/content v3, no longer needed"
+	}
 }

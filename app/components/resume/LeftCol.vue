@@ -1,20 +1,20 @@
 <template>
-  <section class="border-top border-dark pt-5">
+  <section class="border-t border-dark pt-12">
     <h2>
       Summary
     </h2>
-    <p class="px-4 pb-5">
+    <p class="px-6 pb-12">
       highly versatile business leader and attorney with 20+ years of experience
       solving complex business, compliance, and IT problems for small to medium
       businesses and nonprofits with particular focus on healthcare and related
       industries
     </p>
   </section>
-  <section class="border-top border-dark pt-5">
+  <section class="border-t border-dark pt-12">
     <h2>
       Key Skills
     </h2>
-    <p class="px-4 pb-5">
+    <p class="px-6 pb-12">
       organizational leadership &bull; counseling &bull; strategy development
       &bull; contract negotiation and drafting &bull; corporate finance &bull;
       consumer bankruptcy &bull; healthcare compliance &bull; HIPAA &bull;
@@ -23,11 +23,11 @@
       asset management &bull; vendor management &bull; software procurement
     </p>
   </section>
-  <section class="border-top border-dark pt-5">
+  <section class="border-t border-dark pt-12">
     <h2>
       Technical Skills
     </h2>
-    <p class="px-4 pb-5">
+    <p class="px-6 pb-12">
       Windows management frameworks &bull; Linux OS &bull; enterprise networking
       &bull; enterprise storage architectures &bull; cybersecurity &bull;
       identity and access management &bull; JavaScript &bull; HTML &bull; CSS
@@ -37,11 +37,11 @@
       800-53 &bull; CISSP (lapsed) &bull; HITRUST CSF
     </p>
   </section>
-  <section class="border-top border-dark pt-5">
+  <section class="border-t border-dark pt-12">
     <h2>
       Additional information
     </h2>
-    <p class="px-4">
+    <p class="px-6">
       <!-- eslint-disable vue/html-self-closing -->
       willing to travel part-time<br />comfortable and productive in a remote
       work or an office setting

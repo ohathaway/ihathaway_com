@@ -1,5 +1,5 @@
 <template>
-  <div class="info-box rounded p-3" :class="[type]">
+  <div class="info-box rounded-md p-4" :class="[type]">
     <details>
       <summary>
         <font-awesome-icon
@@ -16,7 +16,7 @@
         />
         <slot />
       </summary>
-      <div class="details pt-2">
+      <div class="details pt-2.5">
         <slot name="details" />
       </div>
     </details>

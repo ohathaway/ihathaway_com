@@ -1,10 +1,10 @@
 <template>
   <div id="blog">
-    <main class="min-vh-100">
+    <main class="min-h-screen">
       <BlogIntro />
-      <div class="row blog-posts px-5 px-lg-9 py-5">
+      <div class="flex flex-wrap blog-posts px-12 lg:px-40 py-12">
         <BlogMyContent />
-        <div class="col-lg-4">
+        <div class="lg:w-4/12">
           <HeaderName cols="12"/>
           <HeaderContact />
         </div>
@@ -17,7 +17,7 @@
 #blog {
   font-family: Optima;
   h2 {
-    color: var(--dark-cornflower-blue);
+    color: var(--color-dark-cornflower-blue);
     font-size: 180%;
   }
   h5 {
@@ -25,14 +25,14 @@
     font-style: italic;
   }
   a {
-    color: var(--dark);
+    color: var(--color-dark);
 
     &:hover {
-      color: var(--dark-cornflower-blue);
+      color: var(--color-dark-cornflower-blue);
     }
   }
   main {
-    background-image: linear-gradient(135deg, var(--gainsboro), white);
+    background-image: linear-gradient(135deg, var(--color-gainsboro), white);
   }
 
   #myName {
@@ -42,30 +42,30 @@
   }
 
   #contact-items a {
-    color: var(--dark);
+    color: var(--color-dark);
     &:hover {
-      color: var(--light-slate-gray);
+      color: var(--color-light-slate-gray);
     }
   }
   .blog-intro {
-    background: var(--glaucous);
+    background: var(--color-glaucous);
     p {
       text-align: left;
     }
   }
   .blog-posts {
-    background: var(--light);
+    background: var(--color-light);
   }
 }
 
 .bg-gray {
-  background: var(--gainsboro);
+  background: var(--color-gainsboro);
 
   a {
-    color: var(--dark);
+    color: var(--color-dark);
 
     &:hover {
-      color: var(--dark-cornflower-blue);
+      color: var(--color-dark-cornflower-blue);
     }
   }
 }

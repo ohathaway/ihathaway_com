@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -22,7 +24,11 @@ export default defineNuxtConfig({
     ],
   },
 
-  css: ['~/assets/styles/global.css'],
+  css: ['~/assets/styles/main.css'],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 
   nitro: {
     // preset: 'service-worker'

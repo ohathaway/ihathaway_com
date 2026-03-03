@@ -9,12 +9,12 @@
 #resume {
 }
 .bg-gray {
-  background: var(--gainsboro);
+  background: var(--color-gainsboro);
   a {
-    color: var(--dark);
+    color: var(--color-dark);
     text-decoration: none;
     &:hover {
-      color: var(--dark-cornflower-blue);
+      color: var(--color-dark-cornflower-blue);
       text-decoration: underline;
     }
   }

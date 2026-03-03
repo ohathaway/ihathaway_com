@@ -1,15 +1,15 @@
 <template>
-  <main id="main" class="article-main pt-3">
+  <main id="main" class="article-main pt-4">
     <header v-if="pageData.article" class="article-header">
       <div class="img-cont">
         <img :src="`/${pageData.article.img}`"
              :alt="pageData.article.title"
-             class="rounded-2" />
+             class="rounded-md" />
       </div>
       <h1 class="article-heading">{{ pageData.article.title }}</h1>
       <p class="supporting">{{ pageData.article.description }}</p>
-      <ul class="tags list-group list-group-horizontal">
-        <li class="tag list-group-item border border-0" v-for="(tag, n) in pageData.article.tags" :key="n">
+      <ul class="tags flex flex-row list-none">
+        <li class="tag border-0" v-for="(tag, n) in pageData.article.tags" :key="n">
           {{ tag }}
         </li>
       </ul>
@@ -46,5 +46,4 @@ const pageData = inject('pageData')
     width: 100%;
   }
 }
-
 </style>

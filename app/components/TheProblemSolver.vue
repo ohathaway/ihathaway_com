@@ -1,9 +1,9 @@
 <template>
-  <section id="problem-solver" class="row">
-    <div class="row role-odd role-info py-4 px-3 p-lg-8">
-      <header class="role-even role-name col-lg-2 order-lg-3">
+  <section id="problem-solver" class="flex flex-wrap">
+    <div class="flex flex-wrap role-odd role-info py-6 px-4 lg:p-28">
+      <header class="role-even role-name lg:w-2/12 lg:order-3">
         <h1>
-          <div class="fa-layers fa-fw d-lg-none pe-4">
+          <div class="fa-layers fa-fw lg:hidden pr-6">
             <font-awesome-icon
               icon="fa-solid fa-triangle-exclamation"
               inverse
@@ -19,7 +19,7 @@
         </h1>
       </header>
       <div
-        class="col-sm-1 role-odd role-icon col-1 order-lg-1 d-none d-lg-block"
+        class="sm:w-1/12 role-odd role-icon w-1/12 lg:order-1 hidden lg:block"
       >
         <h1>
           <span class="fa-layers fa-fw">
@@ -36,7 +36,7 @@
           </span>
         </h1>
       </div>
-      <div id="info" class="col-12 col-lg-6 offset-lg-1 order-lg-2">
+      <div id="info" class="w-full lg:w-6/12 lg:ml-[8.333%] lg:order-2">
         <p>
           The problem with problems is that they're just so problematic. Sure, I
           know that statement seems more pedantic than necessary. But consider
@@ -110,6 +110,6 @@
 
 <style>
 #problem-solver {
-  background: var(--glaucous);
+  background: var(--color-glaucous);
 }
 </style>

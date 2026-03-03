@@ -1,17 +1,17 @@
 <template>
   <section id="attorney">
-    <div class="row role-odd role-info py-4 px-3 p-lg-8">
-      <header class="role-odd role-name col-lg-2 order-lg-3">
+    <div class="flex flex-wrap role-odd role-info py-6 px-4 lg:p-28">
+      <header class="role-odd role-name lg:w-2/12 lg:order-3">
         <h1>
           <font-awesome-icon
             icon="fa-solid fa-scale-balanced"
-            class="d-lg-none pe-3"
+            class="lg:hidden pr-4"
           />Attorney&nbsp;&nbsp;&nbsp;
         </h1>
       </header>
       <div
         id="icon"
-        class="role-odd role-icon col-1 order-lg-1 d-none d-lg-block"
+        class="role-odd role-icon w-1/12 lg:order-1 hidden lg:block"
       >
         <h1>
           <font-awesome-icon icon="fa-solid fa-scale-balanced" />
@@ -19,7 +19,7 @@
       </div>
       <div
         id="description"
-        class="role-odd role-description col-12 col-lg-6 offset-lg-1 order-lg-2"
+        class="role-odd role-description w-full lg:w-6/12 lg:ml-[8.333%] lg:order-2"
       >
         <p>
           Yep. I'm an attorney. <i>Queue your favorite attorney joke here.</i>
@@ -39,9 +39,9 @@
           Some of those things I know how to do include:
         </p>
 
-        <ul>
+        <ul class="list-disc pl-6">
           <li class="mb-2">
-            <span class="text-decoration-underline">
+            <span class="underline">
               Educating small business owners
             </span>
             - When you get that spark of an idea that grows into a passion to
@@ -56,7 +56,7 @@
             as the plan encounters real life.
           </li>
           <li class="mb-2">
-            <span class="text-decoration-underline">
+            <span class="underline">
               Writing tight contracts in English instead of Nerdlish
             </span>
             - Written contracts influence so much of our interaction with other
@@ -68,7 +68,7 @@
             message.
           </li>
           <li class="mb-2">
-            <span class="text-decoration-underline">
+            <span class="underline">
               Untangling financial rats' nests
             </span>
             - Not every startup assembles the team of professionals it takes to
@@ -83,7 +83,7 @@
             protection in bankruptcy.
           </li>
           <li>
-            <span class="text-decoration-underline">
+            <span class="underline">
               Preparing for the ultimate exit strategy
             </span>
             - Regardless of whether you plan to sell your business to an
@@ -104,6 +104,6 @@
 
 <style>
 #attorney {
-  background: var(--baby-blue-eyes);
+  background: var(--color-baby-blue-eyes);
 }
 </style>

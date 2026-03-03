@@ -1,11 +1,11 @@
 <template>
-  <div class="p-8 mx-auto">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-5">
+  <div class="p-28 mx-auto">
+    <div class="flex flex-wrap items-center justify-center">
+      <div class="w-5/12">
         <h1>{{ error.statusCode }}</h1>
         <h2>{{ error.message }}</h2>
       </div>
-      <div class="col-7">
+      <div class="w-7/12">
         <p>Meanwhile, please enjoy the following Internet cat video.</p>
         <iframe
           width="560"
@@ -17,9 +17,12 @@
         />
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <button class="btn btn-secondary" @click="handleError">
+    <div class="flex flex-wrap">
+      <div class="w-full">
+        <button
+          class="px-4 py-2 bg-secondary text-dark rounded-md hover:opacity-90 cursor-pointer"
+          @click="handleError"
+        >
           or go Home
         </button>
       </div>
@@ -38,7 +41,7 @@ const handleError = () => clearError({ redirect: '/' }) // eslint-disable-line n
 
 <style>
 body {
-  background: var(--gainsboro);
+  background: var(--color-gainsboro);
 }
 
 h1 {

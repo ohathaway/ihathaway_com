@@ -23,13 +23,5 @@ body {
       padding-right: 2rem;
     }
   }
-  .role-even {
-    &.role-info {
-      padding: 5rem 10rem;
-    }
-    &.role-icon {
-      text-align: right;
-    }
-  }
 }
 </style>

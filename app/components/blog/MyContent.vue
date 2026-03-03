@@ -1,5 +1,5 @@
 <template>
-  <div class="col-lg-8">
-    <p class="text-muted fst-italic">Blog coming soon.</p>
+  <div class="lg:w-8/12">
+    <p class="text-gray-500 italic">Blog coming soon.</p>
   </div>
 </template>

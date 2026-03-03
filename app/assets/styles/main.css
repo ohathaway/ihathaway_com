@@ -1,0 +1,122 @@
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-svg-core/styles.css";
+
+/* ── Theme ── */
+@theme {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+  --color-pale-cerulean: rgba(146, 180, 213, 1);
+  --color-baby-blue-eyes: rgba(161, 198, 234, 1);
+  --color-light-slate-gray: rgba(115, 133, 151, 1);
+  --color-onyx: rgba(68, 68, 68, 1);
+  --color-dark-cornflower-blue: rgba(34, 60, 111, 1);
+  --color-egyptian-blue: rgba(0, 51, 153, 1);
+  --color-glaucous: rgba(94, 130, 194, 1);
+  --color-light-steel-blue: rgba(187, 209, 234, 1);
+  --color-gainsboro: rgba(218, 227, 229, 1);
+  --color-primary: rgba(0, 51, 153, 1);
+  --color-secondary: rgba(161, 198, 234, 1);
+  --color-dark: rgba(68, 68, 68, 1);
+  --color-light: #f8f9fa;
+  --color-lite-slate-gray-text: #111110;
+  --color-blue-900: rgba(34, 60, 111, 1);
+  --color-red-700: #b02a37;
+  --color-red-200: #f1aeb5;
+  --color-danger: #dc3545;
+  --color-yellow-700: #997404;
+  --color-yellow-200: #ffe69c;
+  --color-warning: #ffc107;
+
+  --font-family-trajan: "TrajanPro", serif;
+  --font-family-optima: "Optima", sans-serif;
+  --font-family-hypatia: "HypatiaSans", sans-serif;
+}
+
+/* ── Fonts ── */
+@font-face {
+  font-family: TrajanPro;
+  src: url("@/assets/fonts/TrajanPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: Optima;
+  src: url("@/assets/fonts/Optima.ttc");
+}
+
+@font-face {
+  font-family: HypatiaSans;
+  src: url("@/assets/fonts/HypatiaSansPro.woff2");
+}
+
+/* ── Base layer (replicate Bootstrap Reboot defaults) ── */
+@layer base {
+  body {
+    font-family: Optima, sans-serif;
+
+    a {
+      color: var(--color-gainsboro);
+      font-family: Optima, sans-serif;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--color-light-steel-blue);
+        text-decoration: underline;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: TrajanPro, serif;
+      color: var(--color-primary);
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 140%;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    ul,
+    ol {
+      padding-left: 2rem;
+    }
+
+    blockquote {
+      margin: 0 0 1rem;
+    }
+
+    hr {
+      margin: 1rem 0;
+      border: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+/* ── Compound utility: bg-gray with nested link overrides ── */
+.bg-gray {
+  background: var(--color-gainsboro);
+
+  a {
+    color: var(--color-dark);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-dark-cornflower-blue);
+      text-decoration: underline;
+    }
+  }
+}

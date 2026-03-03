@@ -1,11 +1,11 @@
 <template>
-  <section id="intro" class="row">
-    <header class="row">
-      <div class="intro-name col-sm-12">
-        <h1 class="my-name d-none d-lg-block">
+  <section id="intro" class="flex flex-wrap">
+    <header class="flex flex-wrap">
+      <div class="intro-name sm:w-full">
+        <h1 class="my-name hidden lg:block">
           Owen Hathaway
         </h1>
-        <h1 class="my-name d-lg-none fs-1">
+        <h1 class="my-name lg:hidden text-4xl">
           Owen Hathaway
         </h1>
         <span class="my-roles">
@@ -17,8 +17,8 @@
         </span>
       </div>
     </header>
-    <div class="row">
-      <div class="intro-arrow col-sm-1 col-sm-offset-11">
+    <div class="flex flex-wrap">
+      <div class="intro-arrow sm:w-1/12 sm:ml-[91.666%]">
         <a href="#bellybutton" title="The Belly Button">
           <span class="fa-stack fa-2x">
             <font-awesome-icon
@@ -40,7 +40,7 @@
 
 <style>
 #intro {
-  background: var(--gainsboro);
+  background: var(--color-gainsboro);
   height: 100vh;
   padding: 10rem 0 0 0;
   width: 100%;
@@ -51,19 +51,19 @@
       font-size: 64px;
     }
     .my-roles {
-      color: var(--dark);
+      color: var(--color-dark);
       font-family: Optima;
       a {
-        color: var(--dark);
+        color: var(--color-dark);
       }
     }
   }
   .intro-arrow {
     text-align: right;
     a {
-      color: var(--dark);
+      color: var(--color-dark);
       &:hover {
-        color: var(--light-slate-gray);
+        color: var(--color-light-slate-gray);
       }
     }
   }

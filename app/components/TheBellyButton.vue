@@ -1,11 +1,11 @@
 <template>
   <section
     id="bellybutton"
-    class="row p-4 pt-6 pb-5 p-lg-7 justify-content-center text-light"
+    class="flex flex-wrap p-6 pt-16 pb-12 lg:p-20 justify-center text-light"
   >
-    <div class="col-lg-8">
-      <div class="text-center mb-5">
-        <h4 class="text-capitalize text-light">
+    <div class="lg:w-8/12">
+      <div class="text-center mb-12">
+        <h4 class="capitalize text-light">
           <!-- eslint-disable vue/html-self-closing -->
           Psychologists will tell you that the best way to be happy is <br />
           not to pursue happiness directly. It should be a side effect of <br />

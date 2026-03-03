@@ -172,7 +172,7 @@
 <style>
 h3.experience,
 h4.experience {
-  font-family: Optima !important;
+  font-family: Optima, Candara, "Segoe UI", "Gill Sans", sans-serif !important;
   color: var(--color-dark);
 }
 </style>

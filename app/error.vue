@@ -50,7 +50,7 @@ h1 {
 
 h2,
 p {
-  font-family: Optima;
+  font-family: Optima, Candara, "Segoe UI", "Gill Sans", sans-serif;
 }
 
 p {

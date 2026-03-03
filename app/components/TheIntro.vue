@@ -52,7 +52,7 @@
     }
     .my-roles {
       color: var(--color-dark);
-      font-family: Optima;
+      font-family: Optima, Candara, "Segoe UI", "Gill Sans", sans-serif;
       a {
         color: var(--color-dark);
       }

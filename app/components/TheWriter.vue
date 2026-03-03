@@ -112,13 +112,13 @@ function formatDate(dateStr) {
   }
 
   .post-description {
-    font-family: Optima;
+    font-family: Optima, Candara, "Segoe UI", "Gill Sans", sans-serif;
     color: var(--color-light-slate-gray);
     font-size: 90%;
   }
 
   .post-date {
-    font-family: Optima;
+    font-family: Optima, Candara, "Segoe UI", "Gill Sans", sans-serif;
     font-size: 80%;
     color: var(--color-light-slate-gray);
   }

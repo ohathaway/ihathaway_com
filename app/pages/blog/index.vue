@@ -15,13 +15,13 @@
 
 <style>
 #blog {
-  font-family: Optima;
+  font-family: Optima, Candara, "Segoe UI", "Gill Sans", sans-serif;
   h2 {
     color: var(--color-dark-cornflower-blue);
     font-size: 180%;
   }
   h5 {
-    font-family: Optima;
+    font-family: Optima, Candara, "Segoe UI", "Gill Sans", sans-serif;
     font-style: italic;
   }
   a {

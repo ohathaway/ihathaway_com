@@ -79,7 +79,7 @@
           as
         </p>
         <blockquote cite="https://en.wiktionary.org/wiki/technologist"
-          class="pl-2 italic"
+          class="pl-2 italic text-gray-400"
         >
           A person who uses science or technology to solve practical problems.
         </blockquote>

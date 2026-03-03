@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     preset: 'cloudflare-pages'
   },
 
-  ssr: false,
+  ssr: true,
 
   compatibilityDate: '2025-02-07',
 });

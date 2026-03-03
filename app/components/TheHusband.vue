@@ -1,7 +1,7 @@
 <template>
   <section id="husband">
-    <div class="flex flex-wrap role-even role-info py-6 px-4 lg:p-28">
-      <header class="role-even role-name lg:w-3/12 lg:order-1">
+    <div class="flex flex-wrap role-odd role-info py-6 px-4 lg:p-28">
+      <header class="role-odd role-name lg:w-2/12 lg:order-3">
         <h1>
           <font-awesome-icon
             icon="fa-solid fa-people-roof"
@@ -11,14 +11,14 @@
         </h1>
       </header>
       <div
-        class="role-even role-icon w-1/12 text-left hidden lg:block lg:order-2"
+        class="role-odd role-icon w-1/12 hidden lg:block lg:order-1"
       >
         <h1>
           <font-awesome-icon icon="fa-solid fa-people-roof" />
         </h1>
       </div>
       <div class="w-full lg:hidden" />
-      <div class="role-even role-description w-full lg:w-7/12 lg:order-3 lg:ml-[8.333%]">
+      <div class="role-odd role-description w-full lg:w-6/12 lg:ml-[8.333%] lg:order-2">
         <p>
           I have one and a half life-long projects. I say one and a half because
           it's definitely more than one, but I can't bring myself to say these
@@ -60,7 +60,7 @@
 #husband {
   background: var(--color-light-slate-gray);
   color: var(--color-lite-slate-gray-text);
-  .role-even-name h1 {
+  .role-odd.role-name h1 {
     color: var(--color-lite-slate-gray-text);
   }
 }

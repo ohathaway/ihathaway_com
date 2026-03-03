@@ -1,9 +1,9 @@
 <template>
   <section id="technologist">
-    <div class="row role-even role-info py-4 px-3 p-lg-8">
-      <header class="role-even role-name col-lg-3 order-lg-1">
+    <div class="flex flex-wrap role-even role-info py-6 px-4 lg:p-28">
+      <header class="role-even role-name lg:w-3/12 lg:order-1">
         <h1>
-          <div class="fa-layers fa-fw d-lg-none pe-3">
+          <div class="fa-layers fa-fw lg:hidden pr-4">
             <font-awesome-icon
               icon="fa-solid fa-circle"
               inverse
@@ -34,10 +34,10 @@
         </h1>
       </header>
       <div
-        class="role-even role-icon text-start d-none d-lg-block col-1 order-lg-2"
+        class="role-even role-icon text-left hidden lg:block w-1/12 lg:order-2"
       >
         <h1>
-          <span class="fa-layers fa-fw ms-lg-5">
+          <span class="fa-layers fa-fw lg:ml-12">
             <font-awesome-icon
               icon="fa-solid fa-circle"
               inverse
@@ -69,9 +69,9 @@
       <div
         class="role-even
                role-description
-               col-12 col-lg-7
-               order-lg-3
-               offset-lg-1"
+               w-full lg:w-7/12
+               lg:order-3
+               lg:ml-[8.333%]"
       >
         <p>
           Defined by
@@ -79,7 +79,7 @@
           as
         </p>
         <blockquote cite="https://en.wiktionary.org/wiki/technologist"
-          class="ps-2 fst-italic text-muted"
+          class="pl-2 italic text-gray-400"
         >
           A person who uses science or technology to solve practical problems.
         </blockquote>
@@ -92,7 +92,7 @@
           kingdom.
         </p>
         <p>
-          In contrast to the 
+          In contrast to the
           <a
             href="https://en.wikipedia.org/wiki/Luddite"
             title="Early Eighteenth Century Secret Society - the Luddites"
@@ -110,7 +110,7 @@
           When it comes to tools, my broadest toolset contains IT-related stuff.
           A few of the things I can use with some competency:
         </p>
-        <ul>
+        <ul class="list-disc pl-6">
           <li>Windows management frameworks</li>
           <li>Linux OS</li>
           <li>enterprise networking</li>
@@ -143,10 +143,10 @@
 
 <style>
 #technologist {
-  background: var(--dark-cornflower-blue);
-  color: var(--light);
+  background: var(--color-dark-cornflower-blue);
+  color: var(--color-light);
   .role-even.role-name h1 {
-    color: var(--light);
+    color: var(--color-light);
   }
 }
 </style>

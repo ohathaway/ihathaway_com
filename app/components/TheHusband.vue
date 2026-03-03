@@ -1,24 +1,24 @@
 <template>
   <section id="husband">
-    <div class="row role-even role-info py-4 px-3 p-lg-8">
-      <header class="role-even role-name col-lg-3 order-lg-1">
+    <div class="flex flex-wrap role-odd role-info py-6 px-4 lg:p-28">
+      <header class="role-odd role-name lg:w-2/12 lg:order-3">
         <h1>
           <font-awesome-icon
             icon="fa-solid fa-people-roof"
-            class="d-lg-none pe-3"
+            class="lg:hidden pr-4"
           />
           Husband &nbsp;&nbsp;&nbsp;
         </h1>
       </header>
       <div
-        class="role-even role-icon col-1 text-start d-none d-lg-block order-lg-2"
+        class="role-odd role-icon w-1/12 hidden lg:block lg:order-1"
       >
         <h1>
           <font-awesome-icon icon="fa-solid fa-people-roof" />
         </h1>
       </div>
-      <div class="w-100 d-lg-none" />
-      <div class="role-even role-description col-12 col-lg-7 order-lg-3 offset-lg-1">
+      <div class="w-full lg:hidden" />
+      <div class="role-odd role-description w-full lg:w-6/12 lg:ml-[8.333%] lg:order-2">
         <p>
           I have one and a half life-long projects. I say one and a half because
           it's definitely more than one, but I can't bring myself to say these
@@ -58,10 +58,10 @@
 
 <style>
 #husband {
-  background: var(--light-slate-gray);
-  color: var(--lite-slate-gray-text);
-  .role-even-name h1 {
-    color: var(--lite-slate-gray-text);
+  background: var(--color-light-slate-gray);
+  color: var(--color-lite-slate-gray-text);
+  .role-odd.role-name h1 {
+    color: var(--color-lite-slate-gray-text);
   }
 }
 </style>

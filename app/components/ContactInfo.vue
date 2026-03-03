@@ -1,9 +1,9 @@
 <template>
-  <section id="contact" class="row text-light py-4 py-lg-7 px-lg-9">
-    <header class="col-12 col-lg-3 offset-lg-1 pe-lg-5 text-center text-lg-end">
+  <section id="contact" class="flex flex-wrap text-light py-6 lg:py-20 lg:px-40">
+    <header class="w-full lg:w-3/12 lg:ml-[8.333%] lg:pr-12 text-center lg:text-right">
       <h1>Contact</h1>
     </header>
-    <div id="info" class="col-12 col-lg-7 ps-lg-5">
+    <div id="info" class="w-full lg:w-7/12 lg:pl-12">
       <p>
         <font-awesome-icon icon="fa-solid fa-envelope" />
         &nbsp;&nbsp;&nbsp;&nbsp;
@@ -34,12 +34,12 @@
 
 <style>
 #contact {
-  background: var(--dark);
+  background: var(--color-dark);
   h1 {
     color: #f9f9f9;
   }
   #info {
-    border-left: 1px solid var(--gainsboro);
+    border-left: 1px solid var(--color-gainsboro);
     @media (max-width: 992px) {
       font-size: 150%;
     }

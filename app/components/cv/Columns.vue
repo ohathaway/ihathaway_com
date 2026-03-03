@@ -1,10 +1,10 @@
 <template>
-  <div id="resume-cols" class="row">
-    <div class="col-md-3 m-0 ps-4 pe-0 bg-gray min-vh-100">
+  <div id="resume-cols" class="flex flex-wrap">
+    <div class="md:w-3/12 m-0 pl-6 pr-0 bg-gray min-h-screen">
       <CvLeftCol />
     </div>
-    <div class="col-md-9 m-0 ps-5">
-      <h1 class="m-5 text-center">
+    <div class="md:w-9/12 m-0 pl-12">
+      <h1 class="m-12 text-center">
         Curriculum Vitae
       </h1>
       <CvRightCol />

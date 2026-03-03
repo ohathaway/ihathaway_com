@@ -1,10 +1,10 @@
 <template>
-  <div class="row blog-intro px-5 px-lg-9 py-2 py-lg-5">
-    <div class="col-lg-6 offset-lg-6 text-end pt-lg-2 align-self-end">
+  <div class="flex flex-wrap blog-intro px-12 lg:px-40 py-2 lg:py-12">
+    <div class="lg:w-6/12 lg:ml-[50%] text-right lg:pt-2 self-end">
       <h2>The Belly Button Principal</h2>
       <h5>A collection of random things I write about</h5>
       <details>
-        <summary class="pb-3">
+        <summary class="pb-4">
           What the heck is this place?
         </summary>
         <p>

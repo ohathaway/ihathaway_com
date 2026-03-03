@@ -2,16 +2,14 @@
 </template>
 
 <script setup>
-import { flattenDeep } from 'lodash'
-
 const props = defineProps(['links'])
 
-const flatLinks = flattenDeep(props.links).map( link => {
+const flatLinks = (props.links || []).flat(Infinity).map(link => {
   console.debug('link: ', link)
   let _link = [link]
   if (link.children) {
     console.debug(`${link.id} has ${link.children.length} children`)
-    const flattened =  flattenDeep(link.children)
+    const flattened = link.children.flat(Infinity)
     _link = [link, ...flattened]
   }
   return _link

@@ -1,9 +1,9 @@
 <template>
-  <div id="blog-cols" class="row">
-    <div class="col-md-3 m-0 ps-4 pe-0 bg-gray min-vh-100">
+  <div id="blog-cols" class="flex flex-wrap">
+    <div class="md:w-3/12 m-0 pl-6 pr-0 bg-gray min-h-screen">
       <BlogLeftCol />
     </div>
-    <div class="col-md-9 m-0 ps-5">
+    <div class="md:w-9/12 m-0 pl-12">
       <BlogRightCol />
     </div>
   </div>

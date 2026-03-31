@@ -40,7 +40,7 @@
         </p>
 
         <ul class="list-disc pl-6">
-          <li class="mb-2">
+          <li class="mb-2 text-[130%]">
             <span class="underline">
               Educating small business owners
             </span>
@@ -55,7 +55,7 @@
             solid support structure then guide the business owner along the path
             as the plan encounters real life.
           </li>
-          <li class="mb-2">
+          <li class="mb-2 text-[130%]">
             <span class="underline">
               Writing tight contracts in English instead of Nerdlish
             </span>
@@ -67,7 +67,7 @@
             something about you or your company. Be intentional about that
             message.
           </li>
-          <li class="mb-2">
+          <li class="mb-2 text-[130%]">
             <span class="underline">
               Untangling financial rats' nests
             </span>
@@ -82,7 +82,7 @@
             just isn't any hope, I can guide the business or its owners through
             protection in bankruptcy.
           </li>
-          <li>
+          <li class="text-[130%]">
             <span class="underline">
               Preparing for the ultimate exit strategy
             </span>

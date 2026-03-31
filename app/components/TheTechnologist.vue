@@ -111,30 +111,30 @@
           A few of the things I can use with some competency:
         </p>
         <ul class="list-disc pl-6">
-          <li>Windows management frameworks</li>
-          <li>Linux OS</li>
-          <li>enterprise networking</li>
-          <li>enterprise storage architectures</li>
-          <li>cybersecurity</li>
-          <li>identity and access management</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Vue.JS</li>
-          <li>Ruby/Rails</li>
-          <li>PHP</li>
-          <li>SQL</li>
-          <li>NoSQL</li>
-          <li>REST APIs</li>
-          <li>shell scripting</li>
-          <li>HL7</li>
-          <li>interface engines</li>
-          <li>DevOps</li>
-          <li>serverless computing</li>
-          <li>PCI-DSS</li>
-          <li>NIST 800-53</li>
-          <li>CISSP (lapsed)</li>
-          <li>HITRUST CSF</li>
+          <li class="text-[130%]">Windows management frameworks</li>
+          <li class="text-[130%]">Linux OS</li>
+          <li class="text-[130%]">enterprise networking</li>
+          <li class="text-[130%]">enterprise storage architectures</li>
+          <li class="text-[130%]">cybersecurity</li>
+          <li class="text-[130%]">identity and access management</li>
+          <li class="text-[130%]">JavaScript</li>
+          <li class="text-[130%]">HTML</li>
+          <li class="text-[130%]">CSS</li>
+          <li class="text-[130%]">Vue.JS</li>
+          <li class="text-[130%]">Ruby/Rails</li>
+          <li class="text-[130%]">PHP</li>
+          <li class="text-[130%]">SQL</li>
+          <li class="text-[130%]">NoSQL</li>
+          <li class="text-[130%]">REST APIs</li>
+          <li class="text-[130%]">shell scripting</li>
+          <li class="text-[130%]">HL7</li>
+          <li class="text-[130%]">interface engines</li>
+          <li class="text-[130%]">DevOps</li>
+          <li class="text-[130%]">serverless computing</li>
+          <li class="text-[130%]">PCI-DSS</li>
+          <li class="text-[130%]">NIST 800-53</li>
+          <li class="text-[130%]">CISSP (lapsed)</li>
+          <li class="text-[130%]">HITRUST CSF</li>
         </ul>
       </div>
     </div>

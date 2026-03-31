@@ -94,8 +94,8 @@
             href="https://en.wikipedia.org/wiki/Steven_Pinker"
             title="Steven Pinker"
           >
-            Steven Pinker
-          </a>.
+            Steven Pinker.
+          </a>
         </p>
         <p>
           After doing some thinking, I reach into my toolbox to see what I have
